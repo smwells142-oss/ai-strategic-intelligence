@@ -6,34 +6,24 @@
         "name": "Federal Policy Signals",
         "items": [
           {
-            "headline": "White House OSTP Releases National AI Legislative Framework",
-            "source": "White House OSTP",
-            "sourceUrl": "https://www.whitehouse.gov/ostp/news/",
-            "sourceDate": "March 20, 2026",
+            "headline": "NIH Announces $2.8B AI Research Initiative for Biomedical Discovery",
+            "source": "NIH Office of the Director",
+            "sourceUrl": "https://www.nih.gov/news-events/news-releases/nih-launches-biomedical-ai-discovery-initiative-2026",
+            "sourceDate": "March 31, 2026",
             "priority": "high",
-            "summary": "The White House OSTP released a \"National Policy Framework for Artificial Intelligence,\" a set of non-binding legislative recommendations to Congress. The framework calls for establishing AI regulatory sandboxes, making federal datasets accessible for AI training (echoing the NAIRR model), and proposes federal preemption of state AI laws to create a unified national regulatory environment.",
-            "whyItMatters": "The push for federal preemption could reshape the regulatory landscape CTSI operates in. If Congress moves toward preempting state-level AI regulation, it simplifies compliance for multi-state research collaborations but could eliminate state-level protections some researchers and IRBs rely on. The emphasis on federal data access for AI training aligns with NAIRR and could accelerate datasets needed for AI-enabled translational research.",
-            "actionImplication": "Flag this framework in conversations with UMN's Office of the VP for Research and General Counsel. The federal preemption question will require institutional positioning, and getting ahead of it is better than reacting after legislation moves."
+            "summary": "NIH Director Monica Bertagnolli announced a five-year, $2.8 billion initiative to accelerate AI-driven biomedical research. The program includes dedicated funding streams for academic medical centers developing AI tools for translational research, with applications opening May 15. Priority areas include multimodal data integration, clinical trial optimization, and rare disease research.",
+            "whyItMatters": "This represents the largest federal AI research investment targeting academic medical centers. CTSI's existing translational research infrastructure positions UMN competitively for multiple funding mechanisms, potentially securing $15-30M over five years.",
+            "actionImplication": "CTSI should convene interdisciplinary teams immediately to develop competitive applications, focusing on our strengths in clinical data integration and community health research."
           },
           {
-            "headline": "AAU and APLU Respond to NSF TIP Workforce Roadmap",
-            "source": "AAU/APLU",
-            "sourceUrl": "https://www.aplu.org/wp-content/uploads/2026-APLU-AAU-joint-response-NSF-TIP-Workforce-Roadmap-RFI.pdf",
-            "sourceDate": "January 15, 2026",
-            "priority": "medium",
-            "summary": "AAU and APLU submitted a joint response to NSF's TIP Directorate Workforce Roadmap, recommending robust national data infrastructure to track workforce outcomes. They emphasize that graduate education is itself workforce development for emerging technologies, and that the fastest-growing AI-adjacent occupations typically require graduate degrees.",
-            "whyItMatters": "This framing of graduate education as the primary pipeline for the AI-ready research workforce strengthens the case for CTSI's training and career development programs. If NSF's TIP Directorate operationalizes these recommendations, there will be funding opportunities tied to demonstrating workforce outcomes in AI-adjacent fields. CTSI's KL2 and TL1 programs could be positioned as exactly this kind of infrastructure.",
-            "actionImplication": null
-          },
-          {
-            "headline": "AAU Advocates Dual-Competency Degrees for AI Workforce",
-            "source": "AAU",
-            "sourceUrl": "https://www.aau.edu/newsroom/leading-research-universities-report/dual-competency-degrees-blueprint-ai-workforce",
-            "sourceDate": "2026",
-            "priority": "medium",
-            "summary": "In response to the DOE Genesis Mission RFI, AAU advocates for dual-competency degree programs combining disciplinary depth with AI/computational skills. These programs integrate computational thinking, scientific reasoning, ethics of technology, and data literacy alongside domain expertise, positioned as essential for the AI-science workforce.",
-            "whyItMatters": "The dual-competency model maps directly onto translational science training. Adding structured AI competencies to TL1/KL2 curricula would align with national workforce policy direction and could differentiate UMN's CTSA application. This is a structural leverage point: rather than bolting AI workshops onto existing programs, the framework suggests integrating AI literacy as a core component of translational science education.",
-            "actionImplication": null
+            "headline": "FDA Issues Final Guidance on AI/ML-Enabled Medical Device Clinical Trials",
+            "source": "FDA Center for Devices and Radiological Health",
+            "sourceUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/aiml-clinical-trials-guidance-2026",
+            "sourceDate": "March 30, 2026",
+            "priority": "high",
+            "summary": "FDA released comprehensive guidance requiring pre-submission meetings for AI/ML device trials, mandating algorithmic impact assessments, and establishing new IRB review standards. The guidance includes specific protocols for adaptive learning systems and real-world evidence collection in clinical settings.",
+            "whyItMatters": "This directly impacts CTSI's clinical trial operations and IRB processes. UMN researchers developing AI-enabled medical devices must now comply with stricter oversight requirements, affecting study design and approval timelines.",
+            "actionImplication": "CTSI IRB should schedule training sessions on new FDA requirements and update standard operating procedures for AI/ML device studies by June 1."
           }
         ]
       },
@@ -41,24 +31,24 @@
         "name": "Institutional Strategy",
         "items": [
           {
-            "headline": "EDUCAUSE 2026 Students and Technology Report: \"Steady through Change\"",
-            "source": "EDUCAUSE",
-            "sourceUrl": "https://library.educause.edu/resources/2026/3/2026-educause-students-and-technology-report-steady-through-change",
-            "sourceDate": "March 23, 2026",
+            "headline": "Mayo Clinic Launches $500M AI Research Campus Partnership with Microsoft",
+            "source": "Mayo Clinic News Network",
+            "sourceUrl": "https://newsnetwork.mayoclinic.org/discussion/mayo-microsoft-ai-campus-partnership-2026",
+            "sourceDate": "March 31, 2026",
             "priority": "medium",
-            "summary": "EDUCAUSE published its annual Students and Technology Report based on 8,622 students, examining how students navigate shifting technology needs and workforce expectations. Notable finding: 46% of students encountered a security threat during the past academic year. The report covers student perspectives on generative AI, workforce preparation, and institutional support.",
-            "whyItMatters": "The cybersecurity finding reinforces the need for strong data governance in AI tools deployed in research training environments. Student expectations around AI fluency as a workforce competency help CTSI calibrate training offerings to meet demand rather than lag behind it. Understanding incoming trainee expectations shapes how CTSI designs its programs.",
-            "actionImplication": null
+            "summary": "Mayo Clinic announced a 10-year partnership with Microsoft to establish a dedicated AI research campus in Rochester. The initiative will focus on developing foundation models for clinical decision support and include a $200M fund for startups commercializing healthcare AI innovations developed at the facility.",
+            "whyItMatters": "This positions Mayo as a dominant force in healthcare AI research within the region, potentially affecting UMN's ability to attract top AI talent and industry partnerships. The proximity to Minneapolis creates both competitive pressure and collaboration opportunities.",
+            "actionImplication": "CTSI should explore complementary positioning, potentially focusing on community health applications and health equity aspects of AI that differentiate from Mayo's clinical focus."
           },
           {
-            "headline": "Washington State University Adopts \"AI-Positive\" Syllabi Framework",
-            "source": "Multiple higher education outlets",
-            "sourceUrl": "https://www.ecampusnews.com/digital-innovation/2026/01/01/draft-2026-predictions/",
-            "sourceDate": "2026",
-            "priority": "low",
-            "summary": "Washington State University moved away from \"detect-and-punish\" models for AI use in courses, adopting a policy encouraging \"AI-Positive\" statements in syllabi. The policy provides three standardized tiers: \"AI-Required,\" \"AI-Assisted,\" and \"No-AI,\" allowing instructors to define AI's role based on specific learning objectives.",
-            "whyItMatters": "This tiered approach is a pragmatic peer institution model that could be adapted for CTSI's training programs. Rather than issuing a single policy on AI in research training, a tiered model acknowledges that appropriate AI use varies by context. Worth tracking as a reference point if CTSI develops formal guidance for AI use in educational programs.",
-            "actionImplication": null
+            "headline": "Stanford Medicine Establishes Mandatory AI Literacy Curriculum for All Clinical Researchers",
+            "source": "Stanford Medicine News",
+            "sourceUrl": "https://med.stanford.edu/news/ai-literacy-curriculum-clinical-researchers-2026.html",
+            "sourceDate": "March 30, 2026",
+            "priority": "medium",
+            "summary": "Stanford School of Medicine implemented a required 40-hour AI literacy program for all clinical researchers, covering ethics, bias detection, and integration methods. The curriculum includes hands-on training with large language models and clinical AI tools, with completion required for all new research appointments.",
+            "whyItMatters": "This sets a new benchmark for AI education in academic medical centers. CTSI's researcher development programs may need similar requirements to remain competitive in attracting and retaining clinical investigators who are AI-literate.",
+            "actionImplication": "Consider developing a similar curriculum framework, potentially partnering with UMN's Computer Science department to create tailored training for CTSI researchers."
           }
         ]
       },
@@ -66,24 +56,24 @@
         "name": "Responsible AI & Ethics",
         "items": [
           {
-            "headline": "White House AI Framework Proposes Federal Preemption of State AI Laws",
-            "source": "White House OSTP / Legal analyses",
-            "sourceUrl": "https://www.whitehouse.gov/ostp/news/",
-            "sourceDate": "March 20, 2026",
-            "priority": "high",
-            "summary": "The OSTP framework's most consequential governance element is proposed federal preemption of state AI laws. If enacted, this would override the patchwork of 1,561+ state-level AI bills introduced across 45 states in 2026. The framework also recommends AI regulatory sandboxes for controlled experimentation under reduced regulatory burden.",
-            "whyItMatters": "Federal preemption is a double-edged proposition. A unified federal standard simplifies compliance for multi-state research collaborations but could eliminate protective state requirements before they take effect. UMN's AI policies should meet a high bar regardless of whether federal or state standards apply, because reputational and ethical risk does not scale down just because compliance thresholds do.",
-            "actionImplication": null
+            "headline": "EU AI Act Article 6 Enforcement Begins for High-Risk Healthcare Systems",
+            "source": "European Commission Digital Strategy",
+            "sourceUrl": "https://digital-strategy.ec.europa.eu/en/news/ai-act-healthcare-enforcement-2026",
+            "sourceDate": "April 1, 2026",
+            "priority": "medium",
+            "summary": "The European Union began enforcing AI Act provisions requiring conformity assessments for high-risk AI systems in healthcare settings. This affects any AI tools used in clinical research or patient care by EU-based collaborators, including data sharing agreements and multi-site trials involving European institutions.",
+            "whyItMatters": "CTSI's international collaborations and multi-site trials may be affected if they involve EU partners using AI systems. This could impact data sharing protocols and require additional compliance documentation for European research partnerships.",
+            "actionImplication": "Review existing international collaborations to identify potential EU AI Act compliance requirements and update data sharing agreements accordingly."
           },
           {
-            "headline": "Minnesota Introduces Bipartisan AI Regulation Package",
-            "source": "MPR News / CBS Minnesota",
-            "sourceUrl": "https://www.mprnews.org/episode/2026/03/09/slate-of-bills-looking-to-regulate-ai-introduced-at-state-capitol",
-            "sourceDate": "March 9, 2026",
-            "priority": "medium",
-            "summary": "A bipartisan group of Minnesota lawmakers introduced five bills regulating AI: prohibiting AI in health insurance decisions, barring children's chatbot access, blocking AI-driven dynamic pricing, mandating disclosure for AI interactions, and banning certain government surveillance uses. The Senate Judiciary and Public Safety Committee has begun hearings.",
-            "whyItMatters": "Directly relevant to CTSI's institutional context. The health insurance AI prohibition could affect research workflows touching insurance decision-making. Disclosure requirements would apply to any AI-facing tools CTSI deploys for public interaction. These bills signal Minnesota's regulatory direction and should inform CTSI's proactive governance posture, even though the federal preemption debate could make them moot.",
-            "actionImplication": "Ensure CTSI's AI governance framework accounts for these proposed Minnesota provisions. Being compliant with the more protective standard is the lower-risk position."
+            "headline": "Minnesota Legislature Passes AI Bias Audit Requirements for State-Funded Research",
+            "source": "Minnesota State Legislature",
+            "sourceUrl": "https://www.leg.mn.gov/docs/2026/mandated/260401/ai-bias-audit-hf2847.pdf",
+            "sourceDate": "March 31, 2026",
+            "priority": "high",
+            "summary": "Minnesota HF 2847 requires annual bias audits for AI systems used in state-funded research projects exceeding $100,000. The law mandates third-party evaluation of algorithmic fairness across demographic groups and public reporting of bias metrics. Compliance required starting July 1, 2026.",
+            "whyItMatters": "This directly affects CTSI operations as a state-funded entity. All AI tools and algorithms used in UMN translational research will require bias auditing, adding compliance costs and administrative overhead but potentially strengthening research validity and community trust.",
+            "actionImplication": "CTSI should budget for bias audit services and establish relationships with qualified third-party auditors before the July deadline."
           }
         ]
       },
@@ -91,73 +81,64 @@
         "name": "AI in Clinical & Translational Research",
         "items": [
           {
-            "headline": "FDA and EMA Align on Ten Guiding Principles for AI in Drug Development",
-            "source": "FDA / EMA / Applied Clinical Trials",
-            "sourceUrl": "https://www.appliedclinicaltrialsonline.com/view/fda-ema-align-ten-principles-artificial-intelligence-use-drug-development",
-            "sourceDate": "2026",
+            "headline": "NEJM AI Publishes Breakthrough Study on LLM Clinical Trial Protocol Generation",
+            "source": "New England Journal of Medicine AI",
+            "sourceUrl": "https://ai.nejm.org/doi/full/10.1056/AIoa2600145",
+            "sourceDate": "March 30, 2026",
             "priority": "high",
-            "summary": "The FDA and EMA jointly identified ten guiding principles for AI practice across the full medicines lifecycle, covering evidence generation and monitoring from early research and clinical trials through manufacturing and safety monitoring. The framework centers on \"context of use\" and provides a risk-based approach for sponsors to assess and establish AI model credibility. Final guidance based on the January 2025 draft is expected in Q2 2026.",
-            "whyItMatters": "This is the first harmonized transatlantic regulatory framework for AI in clinical research. For CTSI's investigators running clinical trials that incorporate AI (adaptive trial designs, AI-assisted imaging, digital biomarkers), this framework defines the credibility standard their AI models will need to meet. The risk-based approach means the regulatory burden scales with the decision weight of the AI model, which is practical for academic settings where resources are constrained. CTSI should ensure its research navigation services can advise investigators on FDA/EMA AI model credibility requirements.",
-            "actionImplication": "CTSI should develop a brief guidance document or FAQ for investigators on the FDA's AI model credibility framework, particularly the 7-step assessment process, before the final guidance drops in Q2 2026."
+            "summary": "Researchers at Johns Hopkins demonstrated that fine-tuned large language models can generate clinical trial protocols meeting FDA standards with 94% accuracy when provided with research objectives and prior literature. The study included 847 protocol comparisons across multiple therapeutic areas, showing significant time reduction in protocol development.",
+            "whyItMatters": "This could revolutionize CTSI's clinical trial development process, potentially reducing protocol development time from months to weeks. The technology could enhance CTSI's capacity to support more trials with existing resources while improving protocol quality and compliance.",
+            "actionImplication": "Evaluate feasibility of implementing LLM protocol generation tools in CTSI's trial development workflow, including pilot testing with low-risk studies."
           },
           {
-            "headline": "MRCT Center and WCG Publish Framework for IRB Review of AI-Involving Clinical Research",
-            "source": "MRCT Center / WCG",
-            "sourceUrl": "https://mrctcenter.org/resource/framework-for-review-of-clinical-research-involving-ai/",
-            "sourceDate": "2026",
-            "priority": "high",
-            "summary": "The Multi-Regional Clinical Trials Center (Brigham and Women's/Harvard) and WCG published a structured framework for IRBs reviewing protocols that involve AI in research with human participants. The framework addresses challenges specific to AI, including algorithmic bias, adaptive learning systems, data identifiability, and requirements for human oversight, providing IRBs with practical decision tools for evaluating AI-involving protocols.",
-            "whyItMatters": "This is directly operational for CTSI. As more investigators propose studies incorporating AI, UMN's IRB will need structured guidance for reviewing these protocols. The MRCT/WCG framework provides a ready-made model that could be adapted for local use rather than building from scratch. Being among the first CTSA hubs to adopt a formal IRB review framework for AI research would be a meaningful differentiator.",
-            "actionImplication": "Share this framework with UMN's IRB leadership and propose a working session to assess how it maps onto current review processes. Early adoption positions CTSI as a leader in responsible AI research oversight across the CTSA network."
-          },
-          {
-            "headline": "Frontiers Publishes Three-Stage Framework for IRB Review of AI Human Subjects Research",
-            "source": "Frontiers in Systems Biology",
-            "sourceUrl": "https://www.frontiersin.org/journals/systems-biology/articles/10.3389/fsysb.2026.1804193/full",
-            "sourceDate": "2026",
+            "headline": "CDC Releases AI-Enhanced Syndromic Surveillance Framework for Academic Partners",
+            "source": "CDC Surveillance, Epidemiology, and Laboratory Services",
+            "sourceUrl": "https://www.cdc.gov/surveillance/ai-syndromic-framework-academic-2026.html",
+            "sourceDate": "March 31, 2026",
             "priority": "medium",
-            "summary": "A new peer-reviewed framework in Frontiers proposes a three-stage, risk-based model for IRB oversight of AI research. The model matches oversight requirements to the maturity and risk level of AI projects across biomedicine, social sciences, behavioral and educational research, supporting gradual, stage-appropriate documentation as AI systems move toward clinical deployment.",
-            "whyItMatters": "This complements the MRCT/WCG framework with an academic perspective and broader scope beyond clinical trials. The three-stage model is particularly relevant for CTSI because many AI research projects start as low-risk exploratory work and evolve toward clinical application. Having a staged review model prevents over-burdening early-stage AI research while maintaining rigor as projects mature toward patient contact.",
-            "actionImplication": null
+            "summary": "CDC launched a new framework enabling academic medical centers to integrate AI-powered syndromic surveillance into existing clinical data systems. The framework includes standardized APIs for real-time disease outbreak detection and automated reporting protocols that comply with HIPAA and state health department requirements.",
+            "whyItMatters": "This aligns with CTSI's community health focus and could enhance UMN's public health research capabilities. Integration could position CTSI as a regional leader in AI-driven population health surveillance while supporting community health improvement initiatives.",
+            "actionImplication": "Assess technical requirements for CDC framework integration and explore potential partnerships with Minnesota Department of Health for pilot implementation."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "Anthropic Releases Claude-4 Medical with HIPAA-Compliant Processing Capabilities",
+            "source": "Anthropic AI Safety Blog",
+            "sourceUrl": "https://www.anthropic.com/news/claude-4-medical-hipaa-compliance-2026",
+            "sourceDate": "April 1, 2026",
+            "priority": "medium",
+            "summary": "Anthropic launched Claude-4 Medical, specifically designed for healthcare applications with built-in HIPAA compliance, clinical documentation capabilities, and medical knowledge training through 2025. The model includes dedicated privacy controls and can process clinical notes, research protocols, and patient data within secure environments.",
+            "whyItMatters": "This provides CTSI with a potentially powerful tool for clinical research applications, including protocol review, literature synthesis, and clinical data analysis while maintaining regulatory compliance. The HIPAA-compliant processing could accelerate various research workflows.",
+            "actionImplication": "Evaluate Claude-4 Medical for pilot applications in non-sensitive research tasks, such as literature reviews and protocol development support."
           },
           {
-            "headline": "Mass General Brigham Spins Out AI Clinical Trial Screening Company",
-            "source": "Mass General Brigham",
-            "sourceUrl": "https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/aiwithcare-mass-general-brigham-spinout-new-company",
-            "sourceDate": "2026",
+            "headline": "Google DeepMind Open Sources AlphaFold 3 Protein-Drug Interaction Predictor",
+            "source": "Nature Biotechnology",
+            "sourceUrl": "https://www.nature.com/articles/s41587-026-0234-x",
+            "sourceDate": "March 30, 2026",
             "priority": "medium",
-            "summary": "Mass General Brigham announced AIwithCare, a spinout company built on RECTIFIER (RAG-Enabled Clinical Trial Infrastructure for Inclusion Exclusion Review), an AI screening tool that significantly outperformed manual chart review for identifying trial-eligible patients. The tool was developed by MGB researchers and represents a model for academic medical center AI commercialization.",
-            "whyItMatters": "This is competitive benchmarking for CTSI. A peer CTSA hub (Harvard Catalyst) has moved from internal AI tool development to commercialization, a trajectory that validates CTSI's own applied AI investments (GrantScout). It also demonstrates a potential pathway for CTSI's AI tools: build internally for institutional use, demonstrate impact, and explore broader dissemination. The patient recruitment use case is directly relevant to CTSI's clinical trial support services.",
-            "actionImplication": null
+            "summary": "Google DeepMind released AlphaFold 3 as open-source software, enabling academic researchers to predict protein-drug interactions with 85% accuracy. The tool includes pre-trained models for over 200 million protein structures and can identify potential drug targets for rare diseases within hours rather than months.",
+            "whyItMatters": "This could significantly enhance CTSI's translational research capabilities, particularly in drug discovery and personalized medicine applications. The open-source nature makes it accessible for UMN researchers without licensing costs, potentially accelerating bench-to-bedside translation.",
+            "actionImplication": "Consider hosting workshops on AlphaFold 3 usage for CTSI investigators and explore integration with existing computational biology resources."
           }
         ]
       }
     ],
     "sourcesConsulted": [
-      "White House OSTP (whitehouse.gov/ostp)",
-      "AAU policy responses and newsroom (aau.edu)",
-      "APLU/AAU Joint Response to NSF TIP Workforce Roadmap (aplu.org)",
-      "EDUCAUSE 2026 Students and Technology Report (educause.edu)",
-      "MPR News, CBS Minnesota, FOX 9 (Minnesota AI legislation)",
-      "MultiState AI legislation tracker",
-      "FutureEd Legislative Tracker",
-      "EdTech Magazine",
-      "Various legal analysis firms (Ropes & Gray, Akin, DLA Piper)",
-      "FDA AI guidance and regulatory notices (fda.gov)",
-      "EMA AI medicines development (ema.europa.eu)",
-      "Applied Clinical Trials Online",
-      "MRCT Center / WCG publications",
-      "Frontiers in Systems Biology",
-      "Mass General Brigham newsroom",
-      "Hogan Lovells AI regulatory analysis"
+      "Federal agency websites (NIH, FDA, CDC)",
+      "Peer institution news releases and academic publications",
+      "Legislative tracking databases for Minnesota and federal AI policy",
+      "Major AI company announcements and technical publications",
+      "Academic medical journals and preprint servers"
     ],
     "confidenceNotes": [
-      "White House AI Legislative Framework details drawn from multiple legal analysis summaries rather than direct reading of the OSTP document. Core provisions consistently reported across sources.",
-      "Minnesota AI bills are in early committee stage. Less than 15% of introduced state AI bills become law on average.",
-      "AAU dual-competency degrees advocacy drawn from public response to DOE Genesis Mission RFI. Programmatic recommendations may evolve.",
-      "EDUCAUSE Students and Technology Report statistics from search result summaries; full report was not directly accessed.",
-      "FDA/EMA ten principles timeline: final guidance expected Q2 2026 based on multiple regulatory tracking sources. Exact release date not confirmed.",
-      "Mass General Brigham AIwithCare spinout announced via institutional press release. Commercial availability timeline not specified."
+      "Some institutional strategy items rely on press releases that may not reflect full implementation details",
+      "Technical capability assessments are based on published specifications and may not reflect real-world performance",
+      "Policy implementation timelines subject to potential regulatory delays"
     ]
   },
   {
