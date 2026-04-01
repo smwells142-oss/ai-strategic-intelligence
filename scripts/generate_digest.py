@@ -10,9 +10,11 @@ Appends the new entry to digests.json.
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 
 import anthropic
+import requests
 
 
 DIGEST_SCHEMA = """\
@@ -110,6 +112,110 @@ Today's date: {today}
     return json.loads(response_text)
 
 
+BROWSER_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+}
+
+
+def validate_url(url: str, retries: int = 2) -> tuple[bool, int | None, str]:
+    """
+    Check if a URL is reachable.
+    Returns (is_valid, status_code, reason).
+    Treats 2xx and 403 as valid (403 = bot-blocked but page exists).
+    """
+    for attempt in range(retries):
+        try:
+            resp = requests.head(
+                url, headers=BROWSER_HEADERS, timeout=15, allow_redirects=True
+            )
+            # Some servers reject HEAD; fall back to GET
+            if resp.status_code == 405:
+                resp = requests.get(
+                    url, headers=BROWSER_HEADERS, timeout=15,
+                    allow_redirects=True, stream=True,
+                )
+            code = resp.status_code
+            # 2xx = works, 403 = bot-blocked but page exists, 3xx handled by redirects
+            if code < 400 or code == 403:
+                return True, code, "OK" if code < 400 else "OK (bot-protected)"
+            return False, code, f"HTTP {code}"
+        except requests.exceptions.SSLError:
+            return False, None, "SSL error"
+        except requests.exceptions.ConnectionError:
+            if attempt < retries - 1:
+                time.sleep(2)
+                continue
+            return False, None, "Connection failed"
+        except requests.exceptions.Timeout:
+            if attempt < retries - 1:
+                time.sleep(2)
+                continue
+            return False, None, "Timeout"
+        except requests.exceptions.RequestException as e:
+            return False, None, str(e)[:80]
+    return False, None, "Max retries exceeded"
+
+
+def validate_digest_links(digest: dict) -> dict:
+    """
+    Validate all sourceUrls in a digest. Remove items with truly broken links
+    (404, DNS failure, etc.). Returns the cleaned digest and prints a report.
+    """
+    broken_items = []
+    valid_count = 0
+    removed_count = 0
+
+    for domain in digest.get("domains", []):
+        clean_items = []
+        for item in domain.get("items", []):
+            url = item.get("sourceUrl", "")
+            if not url:
+                clean_items.append(item)
+                continue
+
+            is_valid, code, reason = validate_url(url)
+            headline = item.get("headline", "Unknown")[:60]
+
+            if is_valid:
+                valid_count += 1
+                status = f"  OK ({code})" if code else "  OK"
+                print(f"  {status}: {headline}")
+                clean_items.append(item)
+            else:
+                removed_count += 1
+                print(f"  BROKEN ({reason}): {headline}")
+                print(f"          URL: {url}")
+                broken_items.append({
+                    "headline": headline,
+                    "url": url,
+                    "reason": reason,
+                })
+
+        domain["items"] = clean_items
+
+    # Remove empty domains
+    digest["domains"] = [d for d in digest["domains"] if d.get("items")]
+
+    # Add broken-link info to confidence notes
+    if broken_items:
+        note = (
+            f"{removed_count} item(s) removed due to unverifiable source URLs: "
+            + "; ".join(f'"{b["headline"]}" ({b["reason"]})' for b in broken_items)
+        )
+        digest.setdefault("confidenceNotes", []).append(note)
+
+    print(f"\nLink validation: {valid_count} valid, {removed_count} removed.")
+    return digest
+
+
 def update_digests_file(new_digest: dict, filepath: str = "digests.json"):
     """Load existing digests, prepend the new one, and save."""
     if os.path.exists(filepath):
@@ -153,6 +259,16 @@ def main():
 
     # Ensure date matches
     digest["date"] = today
+
+    # Validate all source URLs — remove items with dead links
+    print("\nValidating source URLs...")
+    digest = validate_digest_links(digest)
+
+    # Make sure we still have enough content after removing broken links
+    total_items = sum(len(d["items"]) for d in digest["domains"])
+    if total_items < 3:
+        print("WARNING: Too many broken links. Only {total_items} items remain.", file=sys.stderr)
+        print("Digest will still be saved, but quality may be degraded.", file=sys.stderr)
 
     update_digests_file(digest)
     print("Done.")
