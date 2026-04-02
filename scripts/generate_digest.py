@@ -13,6 +13,9 @@ import sys
 import time
 from datetime import datetime, timezone
 
+import re
+from urllib.parse import urlparse
+
 import anthropic
 import requests
 
@@ -164,55 +167,136 @@ def validate_url(url: str, retries: int = 2) -> tuple[bool, int | None, str]:
     return False, None, "Max retries exceeded"
 
 
+def get_source_homepage(url: str) -> str | None:
+    """Extract the homepage URL from a full URL (e.g., https://www.nih.gov/some/path -> https://www.nih.gov)."""
+    try:
+        parsed = urlparse(url)
+        if parsed.scheme and parsed.netloc:
+            return f"{parsed.scheme}://{parsed.netloc}"
+    except Exception:
+        pass
+    return None
+
+
+def search_for_replacement_url(headline: str, source: str) -> str | None:
+    """
+    Search DuckDuckGo for the headline + source to find a real URL.
+    Returns the first relevant result URL, or None.
+    """
+    query = f"{source} {headline}"
+    search_url = "https://html.duckduckgo.com/html/"
+    try:
+        resp = requests.post(
+            search_url,
+            data={"q": query},
+            headers=BROWSER_HEADERS,
+            timeout=15,
+        )
+        if resp.status_code != 200:
+            return None
+
+        # Extract URLs from DuckDuckGo result links
+        # DDG HTML results contain links in <a class="result__a" href="...">
+        urls = re.findall(r'class="result__a"[^>]*href="([^"]+)"', resp.text)
+        if not urls:
+            # Fallback: try extracting from uddg= redirect params
+            urls = re.findall(r'uddg=([^&"]+)', resp.text)
+
+        for found_url in urls[:5]:
+            # URL-decode if needed
+            found_url = requests.utils.unquote(found_url)
+            # Skip DuckDuckGo internal links
+            if "duckduckgo.com" in found_url:
+                continue
+            # Validate the found URL actually works
+            is_valid, code, reason = validate_url(found_url, retries=1)
+            if is_valid:
+                return found_url
+
+    except Exception as e:
+        print(f"    Search failed: {e}")
+    return None
+
+
 def validate_digest_links(digest: dict) -> dict:
     """
-    Validate all sourceUrls in a digest. Remove items with truly broken links
-    (404, DNS failure, etc.). Returns the cleaned digest and prints a report.
+    Validate all sourceUrls in a digest. For broken URLs:
+    1. Search the web for a replacement URL matching the headline + source.
+    2. If no replacement found, fall back to the source's homepage.
+    3. Never remove items — always keep the content.
+    Flags modified URLs in confidence notes.
     """
-    broken_items = []
-    valid_count = 0
-    removed_count = 0
+    ok_count = 0
+    replaced_count = 0
+    fallback_count = 0
+    modified_items = []
 
     for domain in digest.get("domains", []):
-        clean_items = []
         for item in domain.get("items", []):
             url = item.get("sourceUrl", "")
             if not url:
-                clean_items.append(item)
                 continue
 
             is_valid, code, reason = validate_url(url)
-            headline = item.get("headline", "Unknown")[:60]
+            headline = item.get("headline", "Unknown")[:70]
+            source = item.get("source", "")
 
             if is_valid:
-                valid_count += 1
-                status = f"  OK ({code})" if code else "  OK"
-                print(f"  {status}: {headline}")
-                clean_items.append(item)
+                ok_count += 1
+                status = f"OK ({code})" if code else "OK"
+                print(f"  {status:20s} {headline}")
+                continue
+
+            # URL is broken — try to find a replacement
+            print(f"  BROKEN ({reason:10s}) {headline}")
+            print(f"    Original URL: {url}")
+
+            # Step 1: Search for the correct URL
+            print(f"    Searching for replacement...")
+            replacement = search_for_replacement_url(headline, source)
+
+            if replacement:
+                replaced_count += 1
+                item["sourceUrl"] = replacement
+                print(f"    REPLACED with: {replacement}")
+                modified_items.append(
+                    f'"{headline}" — original URL broken ({reason}), '
+                    f"replaced via web search"
+                )
             else:
-                removed_count += 1
-                print(f"  BROKEN ({reason}): {headline}")
-                print(f"          URL: {url}")
-                broken_items.append({
-                    "headline": headline,
-                    "url": url,
-                    "reason": reason,
-                })
+                # Step 2: Fall back to source homepage
+                homepage = get_source_homepage(url)
+                if homepage:
+                    fallback_count += 1
+                    item["sourceUrl"] = homepage
+                    print(f"    FALLBACK to:   {homepage}")
+                    modified_items.append(
+                        f'"{headline}" — original URL broken ({reason}), '
+                        f"linked to source homepage"
+                    )
+                else:
+                    # Last resort: keep the original broken URL but flag it
+                    fallback_count += 1
+                    print(f"    KEPT original (no replacement found)")
+                    modified_items.append(
+                        f'"{headline}" — source URL could not be verified ({reason})'
+                    )
 
-        domain["items"] = clean_items
-
-    # Remove empty domains
-    digest["domains"] = [d for d in digest["domains"] if d.get("items")]
-
-    # Add broken-link info to confidence notes
-    if broken_items:
+    # Add notes about modified links to confidence notes
+    if modified_items:
         note = (
-            f"{removed_count} item(s) removed due to unverifiable source URLs: "
-            + "; ".join(f'"{b["headline"]}" ({b["reason"]})' for b in broken_items)
+            f"Link validation: {len(modified_items)} source URL(s) required "
+            f"correction ({replaced_count} replaced via search, "
+            f"{fallback_count} fell back to homepage/kept as-is): "
+            + "; ".join(modified_items)
         )
         digest.setdefault("confidenceNotes", []).append(note)
 
-    print(f"\nLink validation: {valid_count} valid, {removed_count} removed.")
+    total = ok_count + replaced_count + fallback_count
+    print(
+        f"\nLink validation complete: {total} total, {ok_count} valid, "
+        f"{replaced_count} replaced, {fallback_count} fallback."
+    )
     return digest
 
 
@@ -260,15 +344,9 @@ def main():
     # Ensure date matches
     digest["date"] = today
 
-    # Validate all source URLs — remove items with dead links
+    # Validate all source URLs — fix broken links, never remove content
     print("\nValidating source URLs...")
     digest = validate_digest_links(digest)
-
-    # Make sure we still have enough content after removing broken links
-    total_items = sum(len(d["items"]) for d in digest["domains"])
-    if total_items < 3:
-        print("WARNING: Too many broken links. Only {total_items} items remain.", file=sys.stderr)
-        print("Digest will still be saved, but quality may be degraded.", file=sys.stderr)
 
     update_digests_file(digest)
     print("Done.")
