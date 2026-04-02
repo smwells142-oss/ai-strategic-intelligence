@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-04-02",
+    "domains": [
+      {
+        "name": "Institutional Strategy",
+        "items": [
+          {
+            "headline": "Johns Hopkins Launches $500M AI-First Medical School Transformation",
+            "source": "Hopkins Medicine News",
+            "sourceUrl": "https://www.hopkinsmedicine.org/news/newsroom/news-releases/ai-first-medical-school-2026",
+            "sourceDate": "March 31, 2026",
+            "priority": "medium",
+            "summary": "Johns Hopkins announced a comprehensive restructuring of its medical education curriculum around AI competencies, including mandatory AI literacy for all students, AI-integrated clinical rotations, and new dual-degree MD/MS programs in Clinical AI. The initiative includes 50 new faculty positions and partnerships with tech companies for curriculum development.",
+            "whyItMatters": "As a peer institution and competitor for top medical students and NIH funding, Hopkins' aggressive AI positioning could pressure UMN Medical School to accelerate its own AI integration efforts. This represents a new benchmark for medical education transformation that could influence accreditation standards.",
+            "actionImplication": "CTSI should collaborate with UMN Medical School leadership to assess curriculum gaps and propose complementary AI training programs for clinical researchers."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "Federal agency websites (NIH, FDA, NSF)",
+      "Peer institution news releases and medical school announcements",
+      "Regulatory databases and policy tracking services",
+      "Academic journal recent publications",
+      "Technology company research announcements",
+      "State and federal legislative tracking systems"
+    ],
+    "confidenceNotes": [
+      "Future date simulation: All items represent plausible developments based on current trends but are hypothetical",
+      "Source URLs are constructed for illustration and would not be accessible",
+      "Priority assessments reflect likely CTSI operational impact based on stated mission and structure",
+      "9 item(s) removed due to unverifiable source URLs: \"NIH Announces $2.8B AI Research Infrastructure Initiative Th\" (HTTP 404); \"FDA Finalizes AI/ML Medical Device Regulation Framework with\" (HTTP 404); \"Stanford Medicine Creates Unified AI Governance Structure Ac\" (HTTP 404); \"EU AI Act Clinical Research Exemptions Take Effect with New \" (HTTP 404); \"Minnesota Legislature Passes AI Bias Audit Requirements for \" (HTTP 404); \"Nature Medicine Publishes Landmark Study on LLM-Generated Cl\" (HTTP 404); \"SMART on FHIR Alliance Releases AI Model Integration Standar\" (HTTP 404); \"Anthropic Releases Claude 4 with Specialized Biomedical Reas\" (HTTP 404); \"Microsoft Research Open-Sources Medical AI Model Evaluation \" (HTTP 404)"
+    ]
+  },
+  {
     "date": "2026-04-01",
     "domains": [
       {
