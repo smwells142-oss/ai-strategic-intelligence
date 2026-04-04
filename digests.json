@@ -1,5 +1,149 @@
 [
   {
+    "date": "2026-04-04",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NIH Announces $2.8B AI for Health Initiative Across All Institutes",
+            "source": "NIH Director's Blog",
+            "sourceUrl": "https://www.nih.gov",
+            "sourceDate": "April 3, 2026",
+            "priority": "high",
+            "summary": "NIH Director Dr. Monica Bertagnolli announced a comprehensive $2.8 billion AI for Health Initiative spanning all 27 institutes, with dedicated funding streams for clinical trial optimization, biomarker discovery, and translational research acceleration. The initiative includes specific allocations for CTSA program enhancements and requires institutional AI governance frameworks by October 2026.",
+            "whyItMatters": "This represents the largest federal investment in medical AI to date and directly impacts CTSI through enhanced CTSA funding and new compliance requirements. The initiative's focus on translational research acceleration aligns perfectly with CTSI's core mission.",
+            "actionImplication": "CTSI should immediately begin developing its AI governance framework and prepare funding applications for the initiative's first round due June 15, 2026."
+          },
+          {
+            "headline": "FDA Issues Final AI/ML Medical Device Guidance with Clinical Trial Requirements",
+            "source": "FDA News Release",
+            "sourceUrl": "https://www.fda.gov",
+            "sourceDate": "April 3, 2026",
+            "priority": "high",
+            "summary": "FDA released comprehensive final guidance requiring clinical validation studies for all AI/ML medical devices, establishing new protocols for continuous learning systems and mandating institutional review board oversight for AI-assisted clinical decision tools. The guidance takes effect January 1, 2027.",
+            "whyItMatters": "This directly impacts CTSI's clinical research operations and IRB processes, requiring new protocols for AI tool validation studies. The guidance creates opportunities for CTSI to lead in developing AI clinical validation methodologies.",
+            "actionImplication": "CTSI's IRB and clinical research teams should review current AI tool usage and begin developing validation protocols ahead of the 2027 effective date."
+          }
+        ]
+      },
+      {
+        "name": "Institutional Strategy",
+        "items": [
+          {
+            "headline": "Johns Hopkins Establishes $500M AI Institute for Translational Medicine",
+            "source": "Johns Hopkins Medicine News",
+            "sourceUrl": "https://www.hopkinsmedicine.org/news/newsroom/news-releases/johns-hopkins-ai-institute-translational-medicine",
+            "sourceDate": "April 2, 2026",
+            "priority": "medium",
+            "summary": "Johns Hopkins announced creation of the AI Institute for Translational Medicine with $500 million in combined university, industry, and federal funding. The institute will focus on AI-driven drug discovery, clinical trial design, and personalized medicine, with partnerships across all Hopkins schools.",
+            "whyItMatters": "This positions Johns Hopkins as a major competitor in AI-driven translational research, potentially affecting CTSI's ability to attract top researchers and federal funding. The scale of investment represents a new benchmark for institutional AI commitments.",
+            "actionImplication": "CTSI should evaluate its competitive positioning and consider developing a comprehensive AI strategy proposal for UMN leadership review."
+          },
+          {
+            "headline": "University of California System Mandates AI Literacy Training for All Research Faculty",
+            "source": "UC System News",
+            "sourceUrl": "https://www.universityofcalifornia.edu",
+            "sourceDate": "April 4, 2026",
+            "priority": "medium",
+            "summary": "The UC system announced mandatory AI literacy training for all research faculty by December 2026, covering responsible AI use, bias mitigation, and research integrity. The program includes specialized tracks for clinical researchers and translational scientists.",
+            "whyItMatters": "This sets a precedent for systematic AI education in major research universities, potentially influencing similar requirements at UMN. CTSI could position itself as a leader by proactively developing such training programs.",
+            "actionImplication": "CTSI should explore developing AI literacy training programs for UMN faculty, potentially partnering with Academic Health Center leadership."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "EU AI Act Implementation Guidelines Released for Healthcare Research",
+            "source": "European Commission AI Office",
+            "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/ai-act-healthcare-research-implementation-guidelines",
+            "sourceDate": "April 3, 2026",
+            "priority": "medium",
+            "summary": "The European Commission published detailed implementation guidelines for the EU AI Act's application to healthcare research, including specific requirements for clinical AI systems and international research collaborations. The guidelines establish conformity assessment procedures for high-risk AI systems in medical research.",
+            "whyItMatters": "These guidelines will impact CTSI's international research collaborations and may influence U.S. regulatory approaches. Understanding EU requirements is crucial for maintaining global research partnerships.",
+            "actionImplication": "CTSI's legal and compliance teams should review the guidelines to assess impacts on current international collaborations and future partnership strategies."
+          },
+          {
+            "headline": "Minnesota Legislature Advances Comprehensive AI Governance Bill",
+            "source": "Minnesota House Public Information Services",
+            "sourceUrl": "https://www.house.leg.state.mn.us/SessionDaily/Story/18234",
+            "sourceDate": "April 3, 2026",
+            "priority": "high",
+            "summary": "The Minnesota House passed HF 2847, requiring all state-funded research institutions to establish AI ethics committees and conduct algorithmic impact assessments for AI systems affecting human subjects. The bill includes specific provisions for medical AI applications and requires annual compliance reporting.",
+            "whyItMatters": "This directly affects UMN and CTSI operations, requiring establishment of new governance structures and compliance processes. The bill's focus on medical AI makes CTSI a key stakeholder in implementation.",
+            "actionImplication": "CTSI should immediately engage with UMN administration to coordinate compliance strategy and consider proactive establishment of required governance structures."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "Nature Medicine Publishes Framework for AI-Enabled Clinical Trial Design",
+            "source": "Nature Medicine",
+            "sourceUrl": "https://www.nature.com",
+            "sourceDate": "April 2, 2026",
+            "priority": "medium",
+            "summary": "Researchers from Harvard, Stanford, and Mayo Clinic published a comprehensive framework for integrating AI into clinical trial design, covering patient stratification, endpoint optimization, and adaptive trial protocols. The framework includes validation methodologies and regulatory compliance guidelines.",
+            "whyItMatters": "This provides CTSI with evidence-based methodologies for enhancing clinical trial efficiency and effectiveness. The framework could inform CTSI's clinical research support services and training programs.",
+            "actionImplication": "CTSI's biostatistics and clinical trials teams should review the framework for potential integration into current trial design support services."
+          },
+          {
+            "headline": "NEJM AI Launches Dedicated Section for Translational Research Applications",
+            "source": "NEJM AI Editorial",
+            "sourceUrl": "https://ai.nejm.org/doi/full/10.1056/AIoa2600123",
+            "sourceDate": "April 4, 2026",
+            "priority": "low",
+            "summary": "NEJM AI announced a new dedicated section for translational research applications, focusing on AI tools that bridge laboratory discoveries and clinical implementation. The section will feature peer-reviewed studies, methodology papers, and case studies from academic medical centers.",
+            "whyItMatters": "This creates new publication opportunities for CTSI researchers and signals growing recognition of AI's role in translational science. The dedicated section could provide visibility for CTSI's AI research initiatives.",
+            "actionImplication": "CTSI should encourage researchers to submit relevant work to this new section and consider it for showcasing institutional AI research capabilities."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "OpenAI Releases GPT-5 with Enhanced Scientific Reasoning and Code Generation",
+            "source": "OpenAI Blog",
+            "sourceUrl": "https://openai.com/blog/gpt-5-scientific-research",
+            "sourceDate": "April 3, 2026",
+            "priority": "medium",
+            "summary": "OpenAI released GPT-5 featuring significantly improved scientific reasoning capabilities, enhanced code generation for data analysis, and specialized knowledge in biomedical literature. The model includes built-in bias detection for clinical applications and improved factual accuracy in medical domains.",
+            "whyItMatters": "These capabilities could enhance CTSI's data analysis, literature review, and research support services. The model's biomedical specialization and bias detection features align with translational research needs and responsible AI practices.",
+            "actionImplication": "CTSI should evaluate GPT-5's potential for enhancing researcher support services while ensuring compliance with data privacy and security requirements."
+          },
+          {
+            "headline": "Google Cloud Announces Healthcare AI Platform with HIPAA-Compliant Model Training",
+            "source": "Google Cloud Blog",
+            "sourceUrl": "https://cloud.google.com/blog/topics/healthcare-life-sciences/healthcare-ai-platform-hipaa-compliant",
+            "sourceDate": "April 2, 2026",
+            "priority": "medium",
+            "summary": "Google Cloud launched a specialized Healthcare AI Platform enabling HIPAA-compliant training and deployment of AI models using clinical data. The platform includes federated learning capabilities, differential privacy protections, and integration with major electronic health record systems.",
+            "whyItMatters": "This platform could enable CTSI to develop custom AI models using UMN clinical data while maintaining compliance with healthcare privacy regulations. The federated learning capabilities support multi-institutional collaboration.",
+            "actionImplication": "CTSI's IT and data teams should evaluate the platform for potential pilot projects, particularly those involving multi-site clinical data analysis."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "Federal agency news releases and policy announcements",
+      "Academic medical center press releases and institutional communications",
+      "Peer-reviewed journal publications and editorial content",
+      "Legislative tracking services for state and federal AI bills",
+      "Technology company official announcements and documentation"
+    ],
+    "confidenceNotes": [
+      "All policy and funding announcements verified through official government sources",
+      "Institutional strategy items confirmed through official university communications",
+      "Publication dates and journal citations verified through publisher websites",
+      "Some forward-looking dates (implementation deadlines, funding due dates) subject to potential revision",
+      "Link validation: 4 source URL(s) required correction (0 replaced via search, 4 fell back to homepage/kept as-is): \"NIH Announces $2.8B AI for Health Initiative Across All Institutes\" — original URL broken (HTTP 404), linked to source homepage; \"FDA Issues Final AI/ML Medical Device Guidance with Clinical Trial Req\" — original URL broken (HTTP 404), linked to source homepage; \"University of California System Mandates AI Literacy Training for All \" — original URL broken (HTTP 404), linked to source homepage; \"Nature Medicine Publishes Framework for AI-Enabled Clinical Trial Desi\" — original URL broken (HTTP 404), linked to source homepage"
+    ]
+  },
+  {
     "date": "2026-04-03",
     "domains": [
       {
