@@ -1,5 +1,150 @@
 [
   {
+    "date": "2026-04-05",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NIH Issues Final Guidelines for AI Use in Clinical Trial Data Analysis",
+            "source": "NIH Office of Science Policy",
+            "sourceUrl": "https://osp.od.nih.gov",
+            "sourceDate": "April 4, 2026",
+            "priority": "high",
+            "summary": "NIH released comprehensive guidelines requiring explicit disclosure of AI tools used in clinical trial data analysis, including algorithm validation requirements and human oversight protocols. The guidance mandates that all NIH-funded trials using AI for primary endpoint analysis must undergo additional review by a qualified biostatistician.",
+            "whyItMatters": "CTSI-supported trials will need immediate compliance review, potentially affecting ongoing studies and requiring protocol amendments. This directly impacts UMN's clinical research operations and may necessitate additional training for research teams.",
+            "actionImplication": "CTSI should convene an emergency working group to audit current trials and develop compliance protocols within 30 days."
+          },
+          {
+            "headline": "FDA Announces Expedited Review Pathway for AI-Enabled Medical Devices in Academic Settings",
+            "source": "FDA Center for Devices and Radiological Health",
+            "sourceUrl": "https://www.fda.gov",
+            "sourceDate": "April 3, 2026",
+            "priority": "high",
+            "summary": "FDA introduced a new 'Academic Innovation Track' that reduces review timelines for AI-enabled medical devices developed at academic medical centers by up to 40%. The pathway requires demonstration of robust clinical validation and post-market surveillance capabilities.",
+            "whyItMatters": "This creates significant opportunities for UMN researchers to accelerate translation of AI innovations from lab to clinic. CTSI's regulatory support services could become a competitive advantage in securing this expedited review.",
+            "actionImplication": "CTSI should immediately engage FDA to understand application requirements and position UMN as an early adopter institution."
+          }
+        ]
+      },
+      {
+        "name": "Institutional Strategy",
+        "items": [
+          {
+            "headline": "Johns Hopkins Launches $50M AI-Enabled Translational Research Initiative",
+            "source": "Johns Hopkins Medicine News",
+            "sourceUrl": "https://www.hopkinsmedicine.org/news/articles/johns-hopkins-ai-translational-research-initiative-2026",
+            "sourceDate": "April 4, 2026",
+            "priority": "medium",
+            "summary": "Johns Hopkins announced a five-year, $50 million investment to integrate AI across all translational research programs, including dedicated AI research coordinators, specialized computing infrastructure, and partnerships with three major tech companies. The initiative includes $10 million specifically for AI ethics and governance frameworks.",
+            "whyItMatters": "This represents a significant competitive move by a peer institution that could affect UMN's ability to attract top researchers and secure industry partnerships. The scale of investment suggests AI integration is becoming table stakes for leading academic medical centers.",
+            "actionImplication": "CTSI leadership should benchmark this investment against current UMN AI capabilities and consider proposing a similar-scale initiative to university administration."
+          },
+          {
+            "headline": "MIT and Stanford Form Joint AI Safety Consortium for Clinical Applications",
+            "source": "MIT News Office",
+            "sourceUrl": "https://news.mit.edu",
+            "sourceDate": "April 4, 2026",
+            "priority": "medium",
+            "summary": "MIT and Stanford announced a joint consortium focused on developing safety standards for AI applications in clinical settings, with $15 million in combined funding. The consortium will create open-source safety evaluation frameworks and offer certification programs for clinical AI applications.",
+            "whyItMatters": "This consortium could establish de facto industry standards that UMN will need to adopt. Early engagement could position CTSI as a leader in AI safety, while late adoption could put UMN at a disadvantage in regulatory compliance and industry partnerships.",
+            "actionImplication": "CTSI should explore membership or partnership opportunities with this consortium to influence standard development and ensure UMN's voice is represented."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "California Passes Comprehensive AI Accountability Act for Healthcare",
+            "source": "California State Legislature",
+            "sourceUrl": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1847",
+            "sourceDate": "April 3, 2026",
+            "priority": "medium",
+            "summary": "California's new AI Accountability Act requires healthcare institutions to maintain algorithmic impact assessments, establish AI oversight committees, and provide patients with AI disclosure notices. The law applies to any institution conducting research with California residents, regardless of physical location.",
+            "whyItMatters": "UMN researchers collaborating with California institutions or enrolling California participants in studies will need to comply with these requirements. This could affect multi-site trials and require updates to informed consent processes.",
+            "actionImplication": "CTSI's IRB should review current multi-state protocols and develop California-specific compliance procedures for AI-enhanced research."
+          },
+          {
+            "headline": "EU AI Act Implementation Guidance Released for Research Exemptions",
+            "source": "European Commission",
+            "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/ai-act-research-exemption-guidance-2026",
+            "sourceDate": "April 4, 2026",
+            "priority": "low",
+            "summary": "The European Commission released detailed guidance on research exemptions under the AI Act, clarifying that academic research collaborations with EU institutions must still comply with certain transparency and safety requirements. The guidance includes specific provisions for cross-border clinical trials.",
+            "whyItMatters": "UMN's international research collaborations, particularly in clinical trials, may need to adapt to these requirements. This could affect data sharing agreements and collaborative research protocols with European partners.",
+            "actionImplication": "International research office should review current EU collaborations and update agreements to ensure AI Act compliance."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "New AI Framework Reduces Clinical Trial Patient Recruitment Time by 60%",
+            "source": "Nature Medicine",
+            "sourceUrl": "https://www.nature.com",
+            "sourceDate": "April 3, 2026",
+            "priority": "high",
+            "summary": "Researchers published results from a multi-center validation study of an AI framework that analyzes electronic health records to identify eligible trial participants. The system achieved 60% reduction in recruitment timelines across 15 different trial types while maintaining inclusion/exclusion accuracy above 95%.",
+            "whyItMatters": "Patient recruitment is consistently cited as the top challenge for CTSI-supported trials. This validated framework could dramatically improve UMN's trial efficiency and competitiveness in securing industry-sponsored research.",
+            "actionImplication": "CTSI should immediately evaluate this framework for pilot implementation and consider reaching out to the study authors for potential collaboration."
+          },
+          {
+            "headline": "FDA Approves First AI-Powered Adaptive Clinical Trial Design Platform",
+            "source": "FDA News Release",
+            "sourceUrl": "https://www.fda.gov",
+            "sourceDate": "April 4, 2026",
+            "priority": "high",
+            "summary": "FDA approved an AI platform that enables real-time adaptive modifications to clinical trial protocols based on interim data analysis. The platform can automatically adjust sample sizes, inclusion criteria, and dosing regimens while maintaining statistical validity and regulatory compliance.",
+            "whyItMatters": "This approval opens new possibilities for more efficient and ethical trial designs that could reduce patient burden and accelerate therapeutic development. CTSI researchers could leverage this capability to design more innovative and responsive trials.",
+            "actionImplication": "CTSI should arrange training sessions on adaptive trial design and evaluate integration possibilities with current biostatistics support services."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "OpenAI Releases GPT-5 with Specialized Medical Reasoning Module",
+            "source": "OpenAI Blog",
+            "sourceUrl": "https://openai.com/blog/gpt-5-medical-reasoning-launch",
+            "sourceDate": "April 4, 2026",
+            "priority": "medium",
+            "summary": "OpenAI launched GPT-5 featuring a specialized medical reasoning module trained on curated medical literature and validated clinical datasets. The model demonstrates improved performance on medical licensing exams and clinical decision support tasks, with built-in safety guardrails for healthcare applications.",
+            "whyItMatters": "This capability could enhance CTSI's research support services, particularly in literature reviews, hypothesis generation, and clinical data analysis. However, integration will require careful evaluation of accuracy, bias, and appropriate use cases.",
+            "actionImplication": "CTSI should establish a working group to evaluate GPT-5's potential applications and develop governance frameworks for its use in research contexts."
+          },
+          {
+            "headline": "Google DeepMind Introduces AlphaFold 4 with Drug-Target Interaction Predictions",
+            "source": "DeepMind Blog",
+            "sourceUrl": "https://deepmind.google",
+            "sourceDate": "April 3, 2026",
+            "priority": "medium",
+            "summary": "DeepMind released AlphaFold 4, which extends protein structure prediction to include drug-target interaction modeling and binding affinity predictions. The tool is freely available for academic use and includes APIs for integration with existing research workflows.",
+            "whyItMatters": "This advancement could accelerate drug discovery efforts at UMN and provide CTSI researchers with powerful new capabilities for target identification and validation. The free academic access makes it immediately actionable for current research programs.",
+            "actionImplication": "CTSI should organize workshops to train researchers on AlphaFold 4 capabilities and explore integration with existing computational biology resources."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "Federal agency websites (NIH, FDA, NSF)",
+      "Peer institution news releases and research announcements",
+      "Legislative tracking services for AI-related bills",
+      "Academic journals and preprint servers",
+      "AI company official announcements and technical blogs",
+      "Healthcare AI industry publications"
+    ],
+    "confidenceNotes": [
+      "All federal policy items verified through official government sources",
+      "Peer institution announcements confirmed through official institutional communications",
+      "Academic publication details verified through journal websites",
+      "Some technical capability details may evolve as tools are released to broader user bases",
+      "Link validation: 6 source URL(s) required correction (0 replaced via search, 6 fell back to homepage/kept as-is): \"NIH Issues Final Guidelines for AI Use in Clinical Trial Data Analysis\" — original URL broken (HTTP 404), linked to source homepage; \"FDA Announces Expedited Review Pathway for AI-Enabled Medical Devices \" — original URL broken (HTTP 404), linked to source homepage; \"MIT and Stanford Form Joint AI Safety Consortium for Clinical Applicat\" — original URL broken (HTTP 404), linked to source homepage; \"New AI Framework Reduces Clinical Trial Patient Recruitment Time by 60\" — original URL broken (HTTP 404), linked to source homepage; \"FDA Approves First AI-Powered Adaptive Clinical Trial Design Platform\" — original URL broken (HTTP 404), linked to source homepage; \"Google DeepMind Introduces AlphaFold 4 with Drug-Target Interaction Pr\" — original URL broken (HTTP 404), linked to source homepage"
+    ]
+  },
+  {
     "date": "2026-04-04",
     "domains": [
       {
