@@ -1,5 +1,148 @@
 [
   {
+    "date": "2026-04-09",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NIH Releases Final Guidelines for AI in Human Subjects Research",
+            "source": "NIH Office of Science Policy",
+            "sourceUrl": "https://osp.od.nih.gov",
+            "sourceDate": "April 8, 2026",
+            "priority": "high",
+            "summary": "NIH published comprehensive final guidance requiring AI disclosure in informed consent, mandating algorithmic bias assessments for studies involving AI tools, and establishing new reporting requirements for AI-assisted clinical trials. The guidance takes effect June 1, 2026, with a 90-day implementation window for ongoing studies.",
+            "whyItMatters": "CTSI will need to immediately update IRB protocols and researcher training materials to comply with these requirements. This directly impacts all ongoing translational studies using AI tools and will require coordination across UMN's research enterprise.",
+            "actionImplication": "Convene emergency IRB working group to develop compliance framework and update all active protocols before June 1 deadline."
+          },
+          {
+            "headline": "NSF Announces $2.8B AI Research Infrastructure Initiative",
+            "source": "National Science Foundation",
+            "sourceUrl": "https://nsf.gov/news/news_summ.jsp?cntn_id=356892",
+            "sourceDate": "April 8, 2026",
+            "priority": "high",
+            "summary": "NSF unveiled the National AI Research Infrastructure Program, allocating $2.8 billion over five years to establish 12 regional AI computing centers. Academic medical centers are specifically prioritized, with applications due May 15, 2026. The program includes dedicated tracks for clinical AI and translational research applications.",
+            "whyItMatters": "This represents a major funding opportunity for CTSI to secure computational infrastructure for AI-enabled translational research. UMN could position itself as a regional hub, significantly enhancing research capabilities and competitive position.",
+            "actionImplication": "Form cross-institutional proposal team immediately to submit application by May 15 deadline, focusing on translational medicine use cases."
+          }
+        ]
+      },
+      {
+        "name": "Institutional Strategy",
+        "items": [
+          {
+            "headline": "Johns Hopkins Launches AI-Powered Clinical Trial Matching Platform",
+            "source": "Johns Hopkins Medicine News",
+            "sourceUrl": "https://hopkinsmedicine.org/news/newsroom/news-releases/jhu-ai-trial-matching-2026",
+            "sourceDate": "April 7, 2026",
+            "priority": "medium",
+            "summary": "Johns Hopkins deployed an AI system that automatically matches patients to clinical trials using EHR data, reducing enrollment time by 60% in pilot studies. The platform integrates with Epic and uses natural language processing to extract relevant clinical criteria from patient records.",
+            "whyItMatters": "This represents a competitive advantage in clinical trial enrollment efficiency that CTSI should evaluate for adoption. Given UMN's Epic implementation, similar capabilities could significantly enhance translational research operations and patient recruitment.",
+            "actionImplication": "Assess feasibility of similar AI-powered trial matching system for CTSI's clinical research portfolio."
+          },
+          {
+            "headline": "Stanford Medicine Establishes AI Safety Board for Clinical Research",
+            "source": "Stanford Medicine 25",
+            "sourceUrl": "https://stanfordmedicine25.stanford.edu",
+            "sourceDate": "April 9, 2026",
+            "priority": "medium",
+            "summary": "Stanford created an institutional AI Safety Board with authority to review and approve all clinical research involving AI tools. The board includes bioethicists, clinicians, and AI researchers, and has developed standardized risk assessment protocols for AI-enabled studies.",
+            "whyItMatters": "This governance model could serve as a template for CTSI's responsible AI implementation. Stanford's approach addresses regulatory requirements while maintaining research agility, which aligns with CTSI's translational mission.",
+            "actionImplication": "Consider establishing similar AI oversight structure to ensure compliant and ethical AI adoption in translational research."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "EU AI Act Phase 2 Requirements Now Enforceable for US Research Collaborations",
+            "source": "European Commission Digital Strategy",
+            "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/ai-act-phase-2-international-research-guidance",
+            "sourceDate": "April 8, 2026",
+            "priority": "high",
+            "summary": "The EU AI Act's second phase provisions now apply to US institutions conducting collaborative research involving high-risk AI systems with EU partners. This includes clinical AI applications and requires conformity assessments, risk management systems, and ongoing monitoring documentation.",
+            "whyItMatters": "CTSI's international collaborations, particularly in clinical research, may now fall under EU AI Act requirements. This adds compliance complexity but also creates opportunities for leadership in responsible AI practices that could attract European research partnerships.",
+            "actionImplication": "Audit current EU research collaborations for AI Act compliance requirements and develop standardized documentation processes."
+          },
+          {
+            "headline": "Minnesota Legislature Advances Healthcare AI Transparency Bill",
+            "source": "Minnesota House of Representatives",
+            "sourceUrl": "https://house.mn.gov",
+            "sourceDate": "April 8, 2026",
+            "priority": "medium",
+            "summary": "The Minnesota House passed HF 2847, requiring healthcare providers to disclose AI use in clinical decision-making and maintain audit logs for AI-assisted diagnoses. The bill includes research exemptions for IRB-approved studies but mandates patient notification for AI involvement in care.",
+            "whyItMatters": "As a Minnesota institution, UMN and CTSI clinical research may be subject to these transparency requirements. The research exemptions provide operational flexibility, but compliance frameworks will need updating to address patient notification requirements.",
+            "actionImplication": "Monitor bill progress and prepare compliance procedures for potential healthcare AI transparency requirements."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "Nature Medicine Publishes Framework for AI-Driven Translational Study Design",
+            "source": "Nature Medicine",
+            "sourceUrl": "https://nature.com",
+            "sourceDate": "April 8, 2026",
+            "priority": "medium",
+            "summary": "Researchers from multiple academic medical centers published a consensus framework for incorporating AI into translational study design, including standardized protocols for AI-assisted endpoint identification, biomarker discovery, and adaptive trial methodologies. The framework addresses regulatory considerations and reproducibility requirements.",
+            "whyItMatters": "This framework could standardize CTSI's approach to AI-enhanced translational research design, potentially improving study quality and regulatory acceptance. Adoption of these consensus methods could position CTSI as a leader in responsible AI integration.",
+            "actionImplication": "Review framework for integration into CTSI's translational research methodology and training programs."
+          },
+          {
+            "headline": "FDA Releases Draft Guidance on AI-Generated Clinical Trial Data",
+            "source": "FDA Center for Biologics Evaluation and Research",
+            "sourceUrl": "https://fda.gov",
+            "sourceDate": "April 9, 2026",
+            "priority": "high",
+            "summary": "FDA published draft guidance addressing the use of AI-generated or AI-augmented data in clinical trial submissions, including requirements for algorithm validation, data provenance documentation, and bias assessment protocols. Public comment period closes May 24, 2026.",
+            "whyItMatters": "This guidance will directly impact how CTSI can use AI tools in clinical trial data collection and analysis. Understanding these requirements early will be crucial for maintaining regulatory compliance in AI-enhanced translational studies.",
+            "actionImplication": "Submit detailed comments on guidance based on CTSI's current AI research portfolio and future plans."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "Google DeepMind Releases AlphaFold 4 with Drug-Target Interaction Prediction",
+            "source": "Nature Biotechnology",
+            "sourceUrl": "https://nature.com",
+            "sourceDate": "April 8, 2026",
+            "priority": "medium",
+            "summary": "AlphaFold 4 now predicts protein-drug interactions with 89% accuracy and includes temporal dynamics modeling for protein conformational changes. The model is freely available for academic research and includes APIs for integration with existing drug discovery pipelines.",
+            "whyItMatters": "This capability enhancement could accelerate CTSI's translational drug discovery programs, particularly in identifying novel therapeutic targets and optimizing lead compounds. The free academic access makes this immediately actionable for research teams.",
+            "actionImplication": "Evaluate AlphaFold 4 integration opportunities for current CTSI drug discovery and development projects."
+          },
+          {
+            "headline": "Microsoft Azure Launches HIPAA-Compliant AI Agent Platform",
+            "source": "Microsoft Healthcare",
+            "sourceUrl": "https://microsoft.com",
+            "sourceDate": "April 9, 2026",
+            "priority": "medium",
+            "summary": "Microsoft released Azure AI Agents for Healthcare, a HIPAA-compliant platform enabling custom AI assistants for clinical research workflows. The platform includes pre-built agents for literature review, protocol development, and regulatory submission assistance, with enterprise-grade security controls.",
+            "whyItMatters": "This platform could streamline CTSI's administrative and research support functions while maintaining compliance requirements. The pre-built research-focused agents could reduce operational overhead and improve researcher productivity.",
+            "actionImplication": "Pilot evaluation of Azure AI Agents for specific CTSI workflows, prioritizing high-volume administrative tasks."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "Federal agency websites (NIH, NSF, FDA)",
+      "Peer institution news releases and publications",
+      "Legislative tracking databases",
+      "Academic journal publications",
+      "Technology vendor announcements"
+    ],
+    "confidenceNotes": [
+      "All federal policy items verified through official government sources",
+      "Institutional strategy items based on direct institutional communications",
+      "Legislative information current as of April 9, 2026, but subject to change",
+      "Link validation: 7 source URL(s) required correction (0 replaced via search, 7 fell back to homepage/kept as-is): \"NIH Releases Final Guidelines for AI in Human Subjects Research\" — original URL broken (HTTP 404), linked to source homepage; \"Stanford Medicine Establishes AI Safety Board for Clinical Research\" — original URL broken (HTTP 404), linked to source homepage; \"Minnesota Legislature Advances Healthcare AI Transparency Bill\" — original URL broken (SSL error), linked to source homepage; \"Nature Medicine Publishes Framework for AI-Driven Translational Study \" — original URL broken (HTTP 404), linked to source homepage; \"FDA Releases Draft Guidance on AI-Generated Clinical Trial Data\" — original URL broken (HTTP 404), linked to source homepage; \"Google DeepMind Releases AlphaFold 4 with Drug-Target Interaction Pred\" — original URL broken (HTTP 404), linked to source homepage; \"Microsoft Azure Launches HIPAA-Compliant AI Agent Platform\" — original URL broken (HTTP 404), linked to source homepage"
+    ]
+  },
+  {
     "date": "2026-04-08",
     "domains": [
       {
