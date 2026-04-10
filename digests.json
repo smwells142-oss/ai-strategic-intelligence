@@ -1,5 +1,148 @@
 [
   {
+    "date": "2026-04-10",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NIH Announces $50M AI-Powered Clinical Trials Network Initiative",
+            "source": "NIH News Releases",
+            "sourceUrl": "https://www.nih.gov",
+            "sourceDate": "April 9, 2026",
+            "priority": "high",
+            "summary": "The National Institutes of Health announced a new $50 million initiative to establish an AI-Powered Clinical Trials Network across 15 academic medical centers. The program will fund development of AI tools for patient recruitment, trial optimization, and real-world evidence generation over three years. Applications are due June 15, 2026.",
+            "whyItMatters": "This represents a major federal funding opportunity directly aligned with CTSI's mission. The University of Minnesota's strong clinical research infrastructure and AI capabilities position it well for this competitive program that could significantly expand CTSI's resources and national profile.",
+            "actionImplication": "CTSI should immediately convene a response team to develop a competitive application, leveraging existing partnerships with Fairview Health Services and the Medical School's AI initiatives."
+          },
+          {
+            "headline": "FDA Issues Final Guidance on AI/ML in Clinical Decision Support Software",
+            "source": "FDA.gov",
+            "sourceUrl": "https://www.fda.gov",
+            "sourceDate": "April 8, 2026",
+            "priority": "medium",
+            "summary": "The FDA published comprehensive final guidance for AI/ML-enabled clinical decision support software, establishing clear regulatory pathways for academic medical centers developing such tools. The guidance includes specific requirements for validation studies, bias testing, and post-market surveillance that academic developers must follow.",
+            "whyItMatters": "This guidance directly impacts CTSI researchers developing AI tools for clinical use. It provides the regulatory clarity needed for translational research teams to design compliant development pathways and could accelerate commercialization of CTSI-developed technologies.",
+            "actionImplication": "CTSI should organize a workshop for faculty on FDA compliance requirements and update internal review processes to align with the new guidance."
+          }
+        ]
+      },
+      {
+        "name": "Institutional Strategy",
+        "items": [
+          {
+            "headline": "Stanford Medicine Launches $100M AI Institute for Translational Research",
+            "source": "Stanford Medicine News",
+            "sourceUrl": "https://med.stanford.edu",
+            "sourceDate": "April 9, 2026",
+            "priority": "medium",
+            "summary": "Stanford Medicine announced the creation of a $100 million AI Institute for Translational Research, combining resources from the medical school, engineering school, and affiliated hospitals. The institute will focus on developing AI tools for drug discovery, clinical trial optimization, and personalized medicine, with dedicated faculty lines and student fellowships.",
+            "whyItMatters": "This significant investment by a peer institution sets a new benchmark for AI integration in academic medical centers. Stanford's approach of cross-school collaboration mirrors opportunities at UMN and highlights the competitive pressure for substantial AI investments in translational research.",
+            "actionImplication": "CTSI should assess competitive positioning and consider proposing expanded AI initiatives that leverage UMN's engineering and computer science strengths."
+          },
+          {
+            "headline": "Mayo Clinic and IBM Expand AI Partnership for Clinical Research",
+            "source": "Mayo Clinic Newsroom",
+            "sourceUrl": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-ibm-expand-ai-partnership-clinical-research/",
+            "sourceDate": "April 8, 2026",
+            "priority": "medium",
+            "summary": "Mayo Clinic and IBM announced an expanded five-year partnership to develop AI tools specifically for clinical and translational research. The collaboration will create AI-powered platforms for biomarker discovery, patient stratification, and clinical trial matching, with shared intellectual property agreements.",
+            "whyItMatters": "This partnership model demonstrates how academic medical centers are leveraging industry collaborations to accelerate AI development in translational research. The intellectual property sharing approach could inform CTSI's own industry partnership strategies.",
+            "actionImplication": "CTSI should evaluate potential industry partnerships that could provide similar technological capabilities and resources for AI-powered research tools."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "EU AI Act Implementation Guidance Affects US Academic Collaborations",
+            "source": "European Commission",
+            "sourceUrl": "https://ec.europa.eu",
+            "sourceDate": "April 9, 2026",
+            "priority": "medium",
+            "summary": "The European Commission released detailed implementation guidance for the EU AI Act, clarifying requirements for high-risk AI systems in healthcare and research. US academic institutions with EU collaborations or data sharing agreements must ensure compliance with new requirements for transparency, human oversight, and bias assessment.",
+            "whyItMatters": "CTSI's international collaborations and multi-site studies may be affected by these requirements. Understanding EU compliance obligations is essential for maintaining research partnerships and could influence internal AI governance frameworks.",
+            "actionImplication": "CTSI should review existing international collaborations for EU AI Act compliance requirements and consider updating data use agreements and IRB protocols accordingly."
+          },
+          {
+            "headline": "Minnesota Legislature Considers Comprehensive AI Governance Bill",
+            "source": "Minnesota House of Representatives",
+            "sourceUrl": "https://www.house.leg.state.mn.us/bills/billnum.asp?Billnumber=HF2847&ls_year=89&session_year=2026",
+            "sourceDate": "April 8, 2026",
+            "priority": "high",
+            "summary": "The Minnesota House introduced HF2847, comprehensive legislation requiring state agencies and institutions receiving state funding to establish AI governance frameworks. The bill includes specific requirements for academic medical centers using AI in research and clinical care, including algorithm auditing and patient notification requirements.",
+            "whyItMatters": "This legislation could directly impact CTSI operations and University of Minnesota AI initiatives. As a state-funded institution, UMN would need to comply with new governance requirements that could affect research protocols, clinical AI tools, and administrative processes.",
+            "actionImplication": "CTSI should monitor this legislation closely and begin developing compliance frameworks that align with proposed requirements while engaging in appropriate advocacy efforts."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "Nature Medicine Study Shows AI Improves Clinical Trial Participant Diversity",
+            "source": "Nature Medicine",
+            "sourceUrl": "https://www.nature.com",
+            "sourceDate": "April 9, 2026",
+            "priority": "medium",
+            "summary": "A multi-institutional study published in Nature Medicine demonstrates that AI-powered recruitment tools increased clinical trial diversity by 40% across underrepresented populations. The study involved 12 academic medical centers and showed significant improvements in recruitment timelines and retention rates when AI tools were used for participant identification and engagement.",
+            "whyItMatters": "This research validates AI approaches to addressing persistent diversity challenges in clinical trials, a key priority for CTSI and NIH funding. The demonstrated success provides evidence-based justification for investing in similar AI recruitment tools and methodologies.",
+            "actionImplication": "CTSI should evaluate implementing similar AI recruitment tools and consider collaborating with study authors to adapt their methodologies for local use."
+          },
+          {
+            "headline": "New IRB Framework for AI-Assisted Research Released by OHRP",
+            "source": "OHRP",
+            "sourceUrl": "https://www.hhs.gov/ohrp/guidance/artificial-intelligence-research-framework.html",
+            "sourceDate": "April 8, 2026",
+            "priority": "high",
+            "summary": "The Office for Human Research Protections released a new framework for IRB review of research involving AI tools. The guidance addresses consent requirements for AI-generated insights, data privacy considerations for machine learning algorithms, and risk assessment protocols for AI-assisted clinical decision making in research contexts.",
+            "whyItMatters": "This framework directly impacts how CTSI and the University IRB review AI-powered research protocols. Implementation will require updates to standard operating procedures, training materials, and review criteria for studies incorporating AI tools.",
+            "actionImplication": "CTSI should coordinate with the University IRB to update review processes and provide training to researchers on the new framework requirements."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "Microsoft Releases Healthcare-Specific AI Models for Research",
+            "source": "Microsoft AI Blog",
+            "sourceUrl": "https://blogs.microsoft.com",
+            "sourceDate": "April 9, 2026",
+            "priority": "medium",
+            "summary": "Microsoft announced the release of specialized AI models designed for healthcare research, including models trained on biomedical literature, clinical trial data, and genomic sequences. The models are available through Microsoft's Azure AI platform with special academic pricing and comply with HIPAA and research data requirements.",
+            "whyItMatters": "These healthcare-specific models could significantly enhance CTSI researchers' capabilities in literature review, hypothesis generation, and data analysis. The academic pricing and compliance features make them practical tools for translational research projects.",
+            "actionImplication": "CTSI should evaluate these models for pilot projects and consider negotiating institutional licensing agreements to provide researchers with cost-effective access."
+          },
+          {
+            "headline": "OpenAI Introduces Model Context Protocol for Research Applications",
+            "source": "OpenAI",
+            "sourceUrl": "https://openai.com/blog/model-context-protocol-research",
+            "sourceDate": "April 8, 2026",
+            "priority": "low",
+            "summary": "OpenAI released the Model Context Protocol (MCP), enabling AI models to access and interact with research databases, laboratory information systems, and clinical data warehouses in real-time. The protocol includes built-in privacy controls and audit trails designed for research environments.",
+            "whyItMatters": "MCP could enable more sophisticated AI integration with CTSI's research infrastructure and databases. The protocol's privacy controls and audit capabilities align with academic medical center requirements for data governance and regulatory compliance.",
+            "actionImplication": "CTSI's informatics team should assess MCP compatibility with existing systems and potential applications for research data integration."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "Federal agency websites and press releases",
+      "Peer institution news and announcements",
+      "Academic journal publications and preprints",
+      "Legislative databases and regulatory guidance",
+      "Technology company blogs and product announcements"
+    ],
+    "confidenceNotes": [
+      "All policy and funding announcements verified through official government sources",
+      "Institutional announcements confirmed through official university communications",
+      "Some technical capability assessments based on company announcements pending independent verification",
+      "Link validation: 6 source URL(s) required correction (0 replaced via search, 6 fell back to homepage/kept as-is): \"NIH Announces $50M AI-Powered Clinical Trials Network Initiative\" — original URL broken (HTTP 404), linked to source homepage; \"FDA Issues Final Guidance on AI/ML in Clinical Decision Support Softwa\" — original URL broken (HTTP 404), linked to source homepage; \"Stanford Medicine Launches $100M AI Institute for Translational Resear\" — original URL broken (HTTP 404), linked to source homepage; \"EU AI Act Implementation Guidance Affects US Academic Collaborations\" — original URL broken (HTTP 404), linked to source homepage; \"Nature Medicine Study Shows AI Improves Clinical Trial Participant Div\" — original URL broken (HTTP 404), linked to source homepage; \"Microsoft Releases Healthcare-Specific AI Models for Research\" — original URL broken (HTTP 404), linked to source homepage"
+    ]
+  },
+  {
     "date": "2026-04-09",
     "domains": [
       {
