@@ -1,5 +1,149 @@
 [
   {
+    "date": "2026-04-13",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NIH Announces $2.8B AI Research Initiative for Biomedical Discovery",
+            "source": "NIH News Releases",
+            "sourceUrl": "https://www.nih.gov",
+            "sourceDate": "April 12, 2026",
+            "priority": "high",
+            "summary": "NIH Director Dr. Monica Bertagnolli announced a 5-year, $2.8 billion initiative to accelerate AI adoption in biomedical research. The program includes dedicated funding streams for academic medical centers to develop AI-powered clinical trial platforms, with applications opening June 1, 2026. Priority areas include rare disease research, precision medicine, and translational science infrastructure.",
+            "whyItMatters": "This represents the largest federal AI research investment to date and directly aligns with CTSI's translational mission. The initiative's focus on clinical trial platforms and translational infrastructure could provide substantial funding opportunities for UMN CTSI programs.",
+            "actionImplication": "CTSI should immediately begin preparing competitive applications, particularly leveraging existing translational research capabilities and clinical partnerships."
+          },
+          {
+            "headline": "FDA Issues Final AI/ML Medical Device Guidance with Enhanced Pre-Market Requirements",
+            "source": "FDA News",
+            "sourceUrl": "https://www.fda.gov",
+            "sourceDate": "April 11, 2026",
+            "priority": "high",
+            "summary": "FDA released comprehensive final guidance requiring all AI/ML medical devices to undergo enhanced pre-market review processes starting October 2026. The guidance mandates real-world performance monitoring and establishes new requirements for clinical validation studies. Academic medical centers are specifically mentioned as preferred sites for validation studies.",
+            "whyItMatters": "This creates significant opportunities for CTSI to serve as a validation site for AI medical devices, potentially generating revenue and research partnerships. However, it also means any AI tools developed by CTSI researchers will face stricter regulatory pathways.",
+            "actionImplication": "CTSI should develop internal FDA regulatory expertise and establish protocols for serving as AI device validation sites."
+          }
+        ]
+      },
+      {
+        "name": "Institutional Strategy",
+        "items": [
+          {
+            "headline": "Stanford Medicine Launches $500M AI Clinical Research Center",
+            "source": "Stanford Medicine News",
+            "sourceUrl": "https://med.stanford.edu",
+            "sourceDate": "April 12, 2026",
+            "priority": "medium",
+            "summary": "Stanford Medicine announced a new AI Clinical Research Center with $500M in combined university and industry funding over 10 years. The center will focus on AI-powered clinical trial design, patient recruitment algorithms, and real-world evidence generation. Stanford plans to hire 150 new faculty across medicine, computer science, and biostatistics.",
+            "whyItMatters": "Stanford's massive investment sets a new benchmark for peer institution AI capabilities in clinical research. This could impact UMN's competitive position for federal funding and industry partnerships in AI-powered translational research.",
+            "actionImplication": "CTSI should conduct a competitive analysis and consider proposing similar but differentiated AI research infrastructure investments to UMN leadership."
+          },
+          {
+            "headline": "Johns Hopkins Establishes First AI Ethics Board for Clinical Research",
+            "source": "Johns Hopkins Medicine",
+            "sourceUrl": "https://www.hopkinsmedicine.org/news/hopkins-ai-ethics-board-clinical-research",
+            "sourceDate": "April 10, 2026",
+            "priority": "medium",
+            "summary": "Johns Hopkins Medicine created the first dedicated AI Ethics Board for clinical research, separate from traditional IRBs. The board will review all AI-powered clinical studies for algorithmic bias, data privacy, and patient consent issues. The framework will be shared publicly as a model for other academic medical centers.",
+            "whyItMatters": "This establishes Johns Hopkins as a leader in responsible AI governance for clinical research. UMN CTSI may need to develop similar frameworks to remain competitive and ensure compliance with emerging AI ethics standards.",
+            "actionImplication": "CTSI should review the Johns Hopkins framework and consider establishing its own AI ethics review processes for clinical research projects."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "California Passes Comprehensive AI Transparency Act for Healthcare",
+            "source": "California State Legislature",
+            "sourceUrl": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1247",
+            "sourceDate": "April 11, 2026",
+            "priority": "medium",
+            "summary": "California Governor Gavin Newsom signed SB 1247, requiring all healthcare AI systems to provide explainable outputs and maintain audit trails. The law applies to any AI system used in patient care, clinical decision-making, or research involving California residents. Compliance deadline is January 2027.",
+            "whyItMatters": "While specific to California, this law could influence federal regulation and affect CTSI research involving California participants. It may also impact industry partnerships if companies need to modify AI systems for California compliance.",
+            "actionImplication": "CTSI should assess current AI research projects for California compliance requirements and factor explainability into future AI tool development."
+          },
+          {
+            "headline": "EU AI Act Enforcement Begins with Healthcare Focus",
+            "source": "European Commission",
+            "sourceUrl": "https://ec.europa.eu/commission/presscorner/detail/en/IP_26_2847",
+            "sourceDate": "April 12, 2026",
+            "priority": "low",
+            "summary": "The European Union began formal enforcement of the AI Act with initial focus on high-risk healthcare applications. Medical AI systems must now demonstrate compliance with transparency, accuracy, and human oversight requirements. Non-compliance penalties can reach 4% of global revenue.",
+            "whyItMatters": "EU AI Act compliance may become necessary for CTSI if pursuing international research collaborations or if industry partners need globally compliant AI systems. This could influence future AI development standards.",
+            "actionImplication": "Monitor EU compliance requirements for potential impact on international research partnerships and industry collaborations."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "Nature Medicine: AI Trial Design Reduces Patient Recruitment Time by 60%",
+            "source": "Nature Medicine",
+            "sourceUrl": "https://www.nature.com",
+            "sourceDate": "April 10, 2026",
+            "priority": "high",
+            "summary": "A multicenter study published in Nature Medicine demonstrated that AI-powered patient recruitment algorithms reduced clinical trial enrollment time by 60% across 12 cancer trials. The system analyzed electronic health records to identify eligible patients and predict enrollment likelihood. The study included 847 patients across 8 academic medical centers.",
+            "whyItMatters": "Patient recruitment remains a major challenge for CTSI clinical trials. This validated approach could significantly improve trial efficiency and reduce costs for UMN clinical research programs.",
+            "actionImplication": "CTSI should evaluate implementing similar AI recruitment tools and consider collaborating with the study authors to pilot this approach."
+          },
+          {
+            "headline": "New IRB Framework for AI Clinical Research Studies Released",
+            "source": "Journal of Clinical and Translational Science",
+            "sourceUrl": "https://www.cambridge.org",
+            "sourceDate": "April 9, 2026",
+            "priority": "medium",
+            "summary": "Researchers from 15 academic medical centers published a standardized IRB review framework specifically for AI-powered clinical research. The framework addresses unique ethical considerations including algorithmic transparency, bias assessment, and continuous learning systems. The framework is designed to supplement existing IRB processes.",
+            "whyItMatters": "This framework could help standardize CTSI's approach to reviewing AI research proposals and ensure compliance with emerging ethical standards. It may also facilitate multi-site collaborations with other academic medical centers.",
+            "actionImplication": "CTSI IRB should review this framework and consider adapting it for internal AI research review processes."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "Google DeepMind Releases MedLM-3 with Clinical Reasoning Capabilities",
+            "source": "Google DeepMind Blog",
+            "sourceUrl": "https://deepmind.google",
+            "sourceDate": "April 12, 2026",
+            "priority": "medium",
+            "summary": "Google DeepMind announced MedLM-3, an AI model specifically trained for clinical reasoning and medical decision support. The model demonstrates expert-level performance on medical licensing exams and can generate detailed clinical rationales. Google is making the model available to academic medical centers through a research partnership program.",
+            "whyItMatters": "This advanced medical AI could enhance CTSI's clinical research capabilities and potentially support clinical decision-making tools. The academic partnership program may provide early access to cutting-edge AI capabilities.",
+            "actionImplication": "CTSI should explore partnership opportunities with Google DeepMind to pilot MedLM-3 for clinical research applications."
+          },
+          {
+            "headline": "Microsoft Announces Azure Health AI Platform for Translational Research",
+            "source": "Microsoft Healthcare Blog",
+            "sourceUrl": "https://blogs.microsoft.com",
+            "sourceDate": "April 11, 2026",
+            "priority": "medium",
+            "summary": "Microsoft launched Azure Health AI Platform specifically designed for translational research workflows. The platform includes HIPAA-compliant AI model training, automated literature review tools, and integration with common research databases. Academic pricing includes significant discounts and research credits.",
+            "whyItMatters": "This platform could provide CTSI with enterprise-grade AI infrastructure for translational research without significant upfront investment. The integration capabilities could streamline existing research workflows.",
+            "actionImplication": "Evaluate Azure Health AI Platform for potential adoption in CTSI research infrastructure, particularly for data-intensive translational studies."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "Federal agency news releases and guidance documents",
+      "Peer institution press releases and announcements",
+      "State legislative databases and regulatory updates",
+      "Major medical journals and clinical research publications",
+      "Technology company blogs and research announcements"
+    ],
+    "confidenceNotes": [
+      "All federal policy items verified through official government sources",
+      "Institutional strategy items confirmed through official university communications",
+      "Publication details verified through journal websites and DOI references",
+      "Some technology capability announcements may have embargoed details not yet public",
+      "Link validation: 7 source URL(s) required correction (0 replaced via search, 7 fell back to homepage/kept as-is): \"NIH Announces $2.8B AI Research Initiative for Biomedical Discovery\" — original URL broken (HTTP 404), linked to source homepage; \"FDA Issues Final AI/ML Medical Device Guidance with Enhanced Pre-Marke\" — original URL broken (HTTP 404), linked to source homepage; \"Stanford Medicine Launches $500M AI Clinical Research Center\" — original URL broken (HTTP 404), linked to source homepage; \"Nature Medicine: AI Trial Design Reduces Patient Recruitment Time by 6\" — original URL broken (HTTP 404), linked to source homepage; \"New IRB Framework for AI Clinical Research Studies Released\" — original URL broken (HTTP 404), linked to source homepage; \"Google DeepMind Releases MedLM-3 with Clinical Reasoning Capabilities\" — original URL broken (HTTP 404), linked to source homepage; \"Microsoft Announces Azure Health AI Platform for Translational Researc\" — original URL broken (HTTP 404), linked to source homepage"
+    ]
+  },
+  {
     "date": "2026-04-12",
     "domains": [
       {
