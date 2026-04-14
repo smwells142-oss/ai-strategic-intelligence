@@ -52,6 +52,10 @@ Clinical and Translational Science Institute (CTSI). Your job is to produce a \
 daily intelligence digest covering AI developments relevant to academic medical \
 centers, translational research, and CTSI specifically.
 
+You have access to a web_search tool. You MUST use it to find real, current stories \
+before writing the digest. Do not rely on prior knowledge — the digest must reflect \
+what actually happened in the last 24-48 hours, grounded in sources you retrieved.
+
 Cover these domains (include at least 2, ideally 4-5, with 2-4 items each):
 1. Federal Policy Signals - federal AI legislation, NIH/NSF/FDA policy, funding
 2. Institutional Strategy - higher ed AI adoption, workforce, peer institutions
@@ -65,26 +69,67 @@ Priority guidelines:
 - LOW: Background context, market trends, incremental capability updates
 
 Quality standards:
-- Every item must have a real, verifiable source URL
+- Every item must come from a source you actually retrieved via web_search — no inventing headlines, sources, or URLs
+- Every item must have a real, verifiable source URL copied from search results
 - Summaries must be factual and specific, not vague
 - "Why it matters" must connect specifically to CTSI, UMN, or translational science
 - Action implications should be concrete and addressable
 - Include confidence notes for any items where sourcing is indirect
+- If a story was already covered in the "recently covered" list provided in the user message, do NOT include it (or any minor variation). Find genuinely new developments.
 
-Output ONLY the JSON object. No markdown wrapping, no commentary.
+Output ONLY the JSON object as your final message. No markdown wrapping, no commentary.
 """
 
 
+def load_recent_headlines(filepath: str = "digests.json", days: int = 5) -> str:
+    """Return a formatted list of recently-covered headlines to pass to the model
+    so it avoids repeating stories across days."""
+    if not os.path.exists(filepath):
+        return ""
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            digests = json.load(f)
+    except Exception:
+        return ""
+    digests.sort(key=lambda d: d.get("date", ""), reverse=True)
+    recent = digests[:days]
+    lines = []
+    for d in recent:
+        date = d.get("date", "")
+        for domain in d.get("domains", []):
+            for item in domain.get("items", []):
+                headline = (item.get("headline") or "").strip()
+                if headline:
+                    lines.append(f"- [{date}] {headline}")
+    if not lines:
+        return ""
+    return (
+        f"STORIES ALREADY COVERED IN THE LAST {days} DAYS — do NOT repeat these "
+        f"or minor variations of them. Find fresh, genuinely new developments:\n"
+        + "\n".join(lines)
+        + "\n"
+    )
+
+
 def generate_digest(today: str) -> dict:
-    """Call Claude to generate today's digest."""
+    """Call Claude to generate today's digest using the web_search tool."""
     client = anthropic.Anthropic()
+
+    recent_context = load_recent_headlines()
 
     user_prompt = f"""\
 Generate the AI Strategic Intelligence Digest for {today}.
 
-Research and compile the most significant AI developments from the past 24-48 hours \
-relevant to CTSI and academic medical centers. Focus on:
+Use the web_search tool to research the most significant AI developments from the \
+past 24-48 hours. Run several targeted searches (e.g., "NIH AI policy", \
+"NSF AI funding announcement", "FDA AI medical device guidance", \
+"academic medical center AI strategy", "EU AI Act enforcement", \
+"clinical trial AI tool", plus date-qualified variants). Favor primary sources: \
+NIH, NSF, FDA, White House / OSTP, AAMC, peer CTSA hubs, major journals, and \
+reputable trade press. Every item in the final digest must come from a real \
+result you actually retrieved.
 
+Focus areas:
 - New federal policy actions, guidance, or funding announcements related to AI
 - University/institutional AI strategy moves by peer institutions
 - AI governance and ethics developments (state, federal, international)
@@ -93,26 +138,61 @@ relevant to CTSI and academic medical centers. Focus on:
 
 Today's date: {today}
 
+{recent_context}
 {DIGEST_SCHEMA}
 """
 
     message = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-haiku-4-5",
         max_tokens=8000,
         system=SYSTEM_PROMPT,
+        tools=[
+            {
+                "type": "web_search_20250305",
+                "name": "web_search",
+                "max_uses": 2,
+            }
+        ],
         messages=[{"role": "user", "content": user_prompt}],
     )
 
-    response_text = message.content[0].text.strip()
+    # With web_search enabled, the response contains tool_use/search_result
+    # blocks interleaved with text blocks. The final JSON lives in the last
+    # text block.
+    response_text = ""
+    for block in message.content:
+        if getattr(block, "type", None) == "text":
+            response_text = block.text.strip()
 
-    # Handle potential markdown wrapping
+    if not response_text:
+        raise RuntimeError(
+            f"No text block in Claude response. stop_reason={message.stop_reason}"
+        )
+
+    # Strip markdown fences if present
     if response_text.startswith("```"):
         lines = response_text.split("\n")
-        # Remove first and last lines (```json and ```)
         lines = [l for l in lines if not l.strip().startswith("```")]
-        response_text = "\n".join(lines)
+        response_text = "\n".join(lines).strip()
 
-    return json.loads(response_text)
+    # Be forgiving: extract the outermost JSON object even if Claude
+    # wrapped it in explanatory prose.
+    try:
+        return json.loads(response_text)
+    except json.JSONDecodeError:
+        start = response_text.find("{")
+        end = response_text.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            try:
+                return json.loads(response_text[start : end + 1])
+            except json.JSONDecodeError:
+                pass
+        # Dump raw response for debugging, then re-raise.
+        debug_path = "last_response_debug.txt"
+        with open(debug_path, "w", encoding="utf-8") as f:
+            f.write(response_text)
+        print(f"Failed to parse JSON. Raw response written to {debug_path}")
+        raise
 
 
 BROWSER_HEADERS = {
