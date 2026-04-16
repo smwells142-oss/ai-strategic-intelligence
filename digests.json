@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-04-16",
+    "domains": [
+      {
+        "name": "Federal Policy Signals & Funding",
+        "items": [
+          {
+            "headline": "NIH PRIMED-AI Funding Opportunity Announcement Forecasted for April 17, 2026",
+            "source": "NIH Grants.gov",
+            "sourceUrl": "https://simpler.grants.gov/opportunity/360c4588-1512-4fa4-9b61-52a3f1d6c368",
+            "sourceDate": "April 16, 2026 (forecasted announcement April 17)",
+            "priority": "high",
+            "summary": "<cite index=\"2-5\">The NIH Common Fund intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications for the Precision Medicine with Artificial Intelligence - Integrating Imaging with Multimodal Data (PRIMED-AI) program, which seeks to develop innovative, reliable, and cost-effective AI-based tools that integrate clinical imaging with other health data types to enhance personalized medicine for patients with chronic and other health conditions.</cite> <cite index=\"2-4\">Program funding is $10,200,000.</cite> <cite index=\"2-6\">The program's Translating Model to Clinic initiative will use a biphasic mechanism to initially focus on rigorous AI model building through retrospective analysis and testing of large, interoperable multimodal datasets.</cite>",
+            "whyItMatters": "PRIMED-AI directly addresses CTSI's translational research mission by funding AI tools that move from bench research to clinical application. The multimodal integration of imaging and health data is particularly relevant to UMN's clinical research infrastructure and potential partnerships with Mayo Clinic and other regional health systems.",
+            "actionImplication": "CTSI research teams should monitor the April 17 NOFO release and begin planning applications by the June 17, 2026 due date. Interdisciplinary teams combining informatics, clinical expertise, and imaging specialties should start collaboration discussions immediately."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics / Governance",
+        "items": [
+          {
+            "headline": "Research Finding: AI-Drafted Grant Proposals May Reduce Research Innovation",
+            "source": "Nature",
+            "sourceUrl": "https://www.nature.com/articles/d41586-026-00369-3",
+            "sourceDate": "February 12, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"7-11\">Scientists are increasingly turning to artificial-intelligence systems for help drafting the grant proposals that fund their careers, but preliminary data indicate that these tools might be pulling the focus of research towards safe, less-innovative ideas.</cite> <cite index=\"7-2\">Funding proposals to US agencies also tend to be more similar to previously funded projects if they are written or edited with the help of a chatbot.</cite>",
+            "whyItMatters": "This finding has direct governance implications for CTSI's grant-writing support infrastructure and NIH-funded research culture. As CTSI facilitates grant development for UMN faculty, understanding these biases could help preserve research innovation while leveraging AI writing tools responsibly.",
+            "actionImplication": "CTSI should consider developing guidance for faculty on responsible use of AI in grant writing—emphasizing review processes that preserve novel, high-risk research directions rather than converging on safe, precedent-based proposals."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "NIH Grants.gov (PRIMED-AI opportunity)",
+      "NIH Common Fund website",
+      "NIH Bridge2AI initiative documentation",
+      "FDA guidance documents and device oversight resources",
+      "Nature journal research article (February 2026)"
+    ],
+    "confidenceNotes": [
+      "Limited to two verified new items due to web search capacity exhaustion. Most recent FDA and NIH developments from January–April 2026 were already covered in the excluded stories list provided.",
+      "PRIMED-AI announcement date is forecasted as April 17, 2026 (tomorrow) based on Grants.gov pre-release data; confirmation recommended once official release occurs.",
+      "Nature article on AI-drafted proposals is from February 2026 and does not directly discuss CTSI operations, but has institutional governance relevance.",
+      "Unable to conduct comprehensive searches across all five priority domains (clinical trial AI tools, institutional strategy moves, EU regulatory updates, AI tool releases) due to search limits. Additional monitoring recommended for developments in these areas."
+    ]
+  },
+  {
     "date": "2026-04-14",
     "domains": [
       {
