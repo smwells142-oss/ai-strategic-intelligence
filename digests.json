@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-04-18",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "SBIR/STTR Program Reauthorization Extends Small Business AI Research Funding Through 2031",
+            "source": "UNC Research Office",
+            "sourceUrl": "https://research.unc.edu/2026/04/15/april-2026-federal-and-legislative-updates/",
+            "sourceDate": "April 15, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"3-1,3-2\">President Trump signed legislation on April 13 formally reauthorizing the Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs for five years, through September 30, 2031.</cite> This reauthorization affects biomedical and health AI startups and academic technology commercialization ventures.",
+            "whyItMatters": "SBIR/STTR programs are critical sources of early-stage AI research funding for university spin-outs and translational research partnerships. UMN and CTSI researchers regularly compete for these awards to support clinical AI validation studies and digital health tool development.",
+            "actionImplication": "Monitor SBIR Phase I/II solicitation cycles for FY2027 to identify opportunities for AI-enabled clinical trial design and real-world evidence platforms."
+          },
+          {
+            "headline": "FDA Continues Trajectory on AI/ML Medical Device Regulation with 2026 Guidance Roadmap",
+            "source": "Hogan Lovells, FDA CDRH Guidance Agenda",
+            "sourceUrl": "https://www.hoganlovells.com/en/publications/fda-device-guidance-agenda-what-to-watch-in-2026",
+            "sourceDate": "October 2025 (FY2026 planning)",
+            "priority": "medium",
+            "summary": "<cite index=\"14-1,14-2,14-3,14-4\">The FDA published its guidance agenda for Fiscal Year 2026, announcing plans for eight guidance documents including topics on artificial intelligence, real-world evidence, and quality management systems. CDRH's \"A\" list prioritizes four final and four draft guidance documents, with the \"B\" list including three additional finalization items as resources permit.</cite>",
+            "whyItMatters": "As CTSI develops or validates AI tools for clinical decision support, patient recruitment optimization, and trial design, clarity on FDA's evolving stance on AI lifecycle management and real-world evidence integration directly impacts regulatory strategy and timelines for market-ready implementations.",
+            "actionImplication": "Track FDA's finalization timeline for the AI Lifecycle Management guidance (currently on \"B\" list); prepare IRB submissions for AI-augmented trial protocols with anticipated 2026 FDA clarifications in mind."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "FDA Clarifies Non-Medical-Grade Wearable Devices Are Not Regulated; Signals Lighter-Touch AI Oversight",
+            "source": "Fox Business",
+            "sourceUrl": "https://www.foxbusiness.com/media/fda-commissioner-says-non-medical-grade-wearable-data-exempt-regulation",
+            "sourceDate": "January 6, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"13-1,13-7,13-8\">FDA Commissioner Dr. Marty Makary announced that wearable devices providing non-medical-grade information will not be subject to FDA regulation. He stated: \"The only stipulation is if they make claims of something being medical grade, like a clinically appropriate, clinical grade blood pressure measurement.\"</cite> This signals FDA's intent to allow market-driven innovation for consumer health AI tools.",
+            "whyItMatters": "This guidance clarifies the regulatory boundary for CTSI-affiliated research using wearables and AI-powered health monitoring in observational studies. Understanding which tools require FDA oversight vs. those left to market discipline helps researchers avoid unnecessary delays in study setup for digital phenotyping and remote monitoring pilots.",
+            "actionImplication": "Clarify regulatory status of planned wearable integrations in clinical trials; coordinate with IRB on whether borderline devices (e.g., AI-augmented sleep or activity trackers) trigger FDA pre-review requirements or can proceed under general wellness exemption."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "FDA Finalizes Premarket Cybersecurity Guidance for Medical Device and Software Submissions",
+            "source": "IntuitionLabs, FDA Digital Health Framework",
+            "sourceUrl": "https://intuitionlabs.ai/articles/fda-digital-health-technology-guidance-requirements",
+            "sourceDate": "February 2026 (final guidance)",
+            "priority": "high",
+            "summary": "<cite index=\"15-15,15-16,15-17\">FDA finalized new guidance on cybersecurity for device submissions. The Feb 2026 final guidance \"Cybersecurity in Medical Devices: Quality Management System Considerations and Content of Premarket Submissions\" details what manufacturers should do and submit to address cyber risks.</cite>",
+            "whyItMatters": "For CTSI research teams developing or deploying AI-enabled clinical decision support tools, validated software platforms, or remote monitoring systems, cybersecurity requirements (including Software Bill of Materials, threat modeling, and secure-by-design practices) are now formally required premarket documentation. This impacts development timelines and resource allocation for research-to-practice translation projects.",
+            "actionImplication": "For any CTSI project planning commercial validation or clinical implementation of AI tools, budget for cybersecurity documentation including SBOM and threat analysis before FDA submissions or health system deployment."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "UNC Research (April 15, 2026) - Recent federal policy updates on SBIR/STTR reauthorization and Congressional oversight activities",
+      "Hogan Lovells (October 2025) - FDA CDRH Guidance Agenda for FY2026 detailing planned AI/ML and real-world evidence guidance releases",
+      "Fox Business (January 6, 2026) - FDA Commissioner Makary statement on non-medical-grade wearables and regulatory clarification",
+      "IntuitionLabs (April 2026) - Synthesis of FDA digital health requirements including February 2026 cybersecurity finalization",
+      "FDA Official Guidance Documents (January 2024 - February 2026) - AI-enabled device software functions, cybersecurity, and quality management updates",
+      "Arnold & Porter (January 2026) - Analysis of FDA clinical decision support and general wellness guidance updates"
+    ],
+    "confidenceNotes": [
+      "LIMITATION: Most recent substantive developments in search results are from January-February 2026; no major policy announcements or institutional strategy developments specifically dated April 16-18, 2026 were retrieved. This likely reflects the normal pace of federal policy cycles (guidance finalization occurs mid-year, solicitation announcements follow in seasonal patterns).",
+      "The SBIR/STTR reauthorization (April 13 signature) is confirmed recent and substantive but is a legislative item rather than AI-specific policy.",
+      "FDA guidance developments cited (cybersecurity finalization, AI lifecycle roadmap) are confirmed real but sourced from earlier 2026 announcements; no new FDA guidance releases specifically dated April 16-18 were found.",
+      "Recommend supplementary searches in official NIH, NSF, and FDA Federal Register notices, plus institutional press releases from peer CTSA centers (Mayo, Stanford, Johns Hopkins, etc.) if more granular institutional strategy developments from past 48 hours are needed."
+    ]
+  },
+  {
     "date": "2026-04-16",
     "domains": [
       {
