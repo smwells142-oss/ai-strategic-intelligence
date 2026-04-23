@@ -1,5 +1,111 @@
 [
   {
+    "date": "2026-04-23",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "FDA Signals Lighter-Touch Approach to Clinical Decision Support AI; Single-Recommendation Tools No Longer Automatically FDA-Regulated",
+            "source": "STAT News",
+            "sourceUrl": "https://www.statnews.com/2026/01/06/fda-pulls-back-oversight-ai-enabled-devices-wearables/",
+            "sourceDate": "January 6, 2026",
+            "priority": "high",
+            "summary": "<cite index=\"13-1,13-16,13-17\">The FDA will soften its approach to the regulation of clinical decision support software, which include AI-enabled products that help doctors navigate diagnoses and treatment options. The agency previously considered products that delivered a single recommendation as FDA-regulated medical devices. Now, those products can enter the market without FDA review as long as they fulfill the agency's other criteria for escaping regulation.</cite>",
+            "whyItMatters": "This policy shift significantly impacts CTSI's clinical research infrastructure and AI tool evaluation frameworks. The lighter-touch regulatory stance enables faster adoption of AI decision-support tools in translational research settings, but requires institutional judgment to distinguish research-grade tools from unregulated informational products. UMN researchers will need updated IRB guidance to evaluate AI tools that previously required FDA assessment.",
+            "actionImplication": "CTSI should coordinate with UMN's IRB, legal, and compliance teams to update AI tool vetting protocols; consider developing institutional guidance distinguishing FDA-regulated from non-regulated clinical AI support tools."
+          },
+          {
+            "headline": "FDA Clarifies Non-Medical-Grade Wearables Exempt from Regulation; Commissioner Makary Emphasizes Pro-Innovation Stance",
+            "source": "Fox Business",
+            "sourceUrl": "https://www.foxbusiness.com/media/fda-commissioner-says-non-medical-grade-wearable-data-exempt-regulation",
+            "sourceDate": "January 6, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"15-1,15-8\">FDA Commissioner Marty Makary announced that wearable devices providing non-medical-grade information will not be subject to FDA regulation. The FDA states that if a device or software is simply providing information without making claims of being medical grade, it can be offered without FDA regulation.</cite>",
+            "whyItMatters": "Relevant to CTSI's digital health research portfolio and patient-facing health monitoring studies. Enables faster integration of consumer-grade wearables into translational research without regulatory delay. However, researchers must ensure informed consent documents clearly distinguish research-grade measurement from marketed claims.",
+            "actionImplication": "CTSI should update IRB templates and researcher guidance on wearable device integration; clarify when institutional validation is required versus market-determined accuracy."
+          },
+          {
+            "headline": "FDA FY2026 Guidance Agenda: AI Lifecycle Management Guidance Deferred; Real-World Evidence and Quality Management System Guidance Prioritized",
+            "source": "Hogan Lovells",
+            "sourceUrl": "https://www.hoganlovells.com/en/publications/fda-device-guidance-agenda-what-to-watch-in-2026",
+            "sourceDate": "October 15, 2025",
+            "priority": "medium",
+            "summary": "<cite index=\"14-8,14-9\">FDA's FY-2026 'B' list includes \"Artificial Intelligence-Enabled Device Software Functions: Lifecycle Management Considerations and Marketing Submission Recommendations.\" The draft version of this guidance was published in January 2024 and consolidated recommendations on content needed in a marketing application pertaining to a device with AI-enabled software functions.</cite> <cite index=\"14-5\">The \"A\" list prioritizes \"Use of Real-World Evidence to Support Regulatory Decision-Making for Medical Devices,\" with the draft version published in December 2023.</cite>",
+            "whyItMatters": "The deferral of the AI TPLC (Total Product Lifecycle) guidance to the 'B' list (publish 'as resources permit') extends regulatory uncertainty for CTSI-supported AI device development. Conversely, prioritization of real-world evidence guidance creates opportunity for translational research to feed regulatory pathways. Both are central to CTSI's clinical translation mission.",
+            "actionImplication": "CTSI should track FDA guidance releases; consider planning AI device submissions based on January 2024 draft guidance and monitor for finalization; begin preparing real-world evidence datasets from clinical trials to support FDA submissions."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "FDA Cybersecurity Guidance for Medical Device Premarket Submissions Finalized (February 2026); Quality Management System Alignment Required",
+            "source": "IntuitionLabs",
+            "sourceUrl": "https://intuitionlabs.ai/articles/fda-digital-health-technology-guidance-requirements",
+            "sourceDate": "2 weeks ago (mid-April 2026)",
+            "priority": "high",
+            "summary": "<cite index=\"17-15,17-16,17-17\">FDA has finalized new guidance on cybersecurity for device submissions. The February 2026 final guidance \"Cybersecurity in Medical Devices: Quality Management System Considerations and Content of Premarket Submissions\" details what manufacturers should do and submit to address cyber risks.</cite>",
+            "whyItMatters": "Critical for CTSI-supported clinical AI tools and digital health devices entering FDA pathways. The alignment with Quality Management System regulations (effective February 2026) and ISO 13485 standards now makes cybersecurity compliance mandatory for any AI tool proposed for commercialization from UMN. This affects CTSI's technology transfer and spin-out evaluation processes.",
+            "actionImplication": "CTSI should integrate February 2026 cybersecurity guidance review into technology assessment protocols; flag any pending device submissions for updated compliance requirements; coordinate with UMN legal and IT security teams on documentation standards."
+          },
+          {
+            "headline": "NIH Policy Restricts AI-Substantially-Generated Grant Proposals; Effective September 25, 2025, with Post-Award Misconduct Enforcement Implications",
+            "source": "E.B. Howard Consulting",
+            "sourceUrl": "https://www.ebhoward.com/nih-draws-the-line-new-limits-on-ai-use-and-application-volume/",
+            "sourceDate": "September 2, 2025",
+            "priority": "high",
+            "summary": "<cite index=\"7-8,7-9,7-10\">On July 17, 2025, NIH released Notice NOT-OD-25-132, introducing two sweeping changes: principal investigators will face new limits on how many proposals they can submit per fiscal year, and applications \"substantially developed by AI\" will be deemed noncompliant. Researchers may still use AI for grammar, formatting, or administrative polish, but the generation of scientific ideas, hypotheses, aims, or background material by AI is expressly prohibited. Proposals found in violation risk withdrawal without review, institutional sanctions, or even referral to the Office of Research Integrity.</cite>",
+            "whyItMatters": "Direct operational impact on UMN and CTSI researchers. The policy establishes institutional accountability: UMN's research administration must enforce tracking systems. Post-award detection triggers misconduct investigation, potentially jeopardizing funded research. CTSI researchers applying for NIH funding must understand boundaries of permissible AI use in proposal development.",
+            "actionImplication": "CTSI should issue institutional guidance clarifying compliant versus non-compliant AI use in NIH proposals; coordinate with UMN's Office of Research Integrity on post-award audit procedures; train researchers on distinction between AI-assisted formatting and AI-generated scientific content."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "FDA Launches TEMPO Pilot Program for Expedited Digital Health Device Market Entry; Collaboration with CMS for Medicare/Medicaid Coverage",
+            "source": "IntuitionLabs",
+            "sourceUrl": "https://intuitionlabs.ai/articles/fda-digital-health-technology-guidance-requirements",
+            "sourceDate": "2 weeks ago (mid-April 2026)",
+            "priority": "medium",
+            "summary": "<cite index=\"17-5\">As of early 2026, FDA launched the TEMPO pilot in cooperation with CMS to help bring certain digital health devices to market for Medicare/Medicaid patients while protecting safety.</cite>",
+            "whyItMatters": "The TEMPO pilot creates a pathway for CTSI-developed digital health and AI tools to reach clinical populations faster, with combined FDA-CMS approval reducing bottlenecks. Particularly relevant for tools targeting older adults (Medicare) or underserved populations (Medicaid), aligning with health equity priorities. UMN researchers should explore TEMPO eligibility for qualified tools.",
+            "actionImplication": "CTSI should identify early-stage digital health and AI tools in UMN's pipeline that may qualify for TEMPO pilot; coordinate with FDA's Digital Health Center of Excellence; prepare applications highlighting Medicare/Medicaid patient populations and safety monitoring plans."
+          },
+          {
+            "headline": "FDA Announces Plans for Digital Sensor Clinical Endpoint Validation Guidance (Expected 2026); Affects Real-World Data Integration in Clinical Trials",
+            "source": "IntuitionLabs",
+            "sourceUrl": "https://intuitionlabs.ai/articles/fda-digital-health-technology-guidance-requirements",
+            "sourceDate": "2 weeks ago (mid-April 2026)",
+            "priority": "medium",
+            "summary": "<cite index=\"17-19\">On February 3, 2026, FDA indicated an upcoming final guidance on content and performance testing for clinical endpoints collected by digital sensors (slated for 2026).</cite>",
+            "whyItMatters": "Expected to standardize validation of wearable and sensor-derived clinical endpoints in trials, reducing uncertainty for CTSI-supported studies integrating continuous remote monitoring. Guidance will clarify data quality, bias, and performance standards needed for regulatory acceptance of digital-source primary endpoints—critical for adaptive trial design and patient engagement.",
+            "actionImplication": "CTSI should monitor FDA Federal Register for final guidance release; begin aligning ongoing digital sensor studies with anticipated standards; engage with trial biostatisticians on endpoint validation protocols in advance of guidance finalization."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "STAT News (January 6, 2026) - FDA digital health and AI policy updates",
+      "Fox Business (January 6, 2026) - FDA Commissioner statements on wearable regulation",
+      "Hogan Lovells (October 15, 2025) - FDA FY2026 device guidance agenda analysis",
+      "IntuitionLabs (April 2026, 2 weeks ago) - FDA digital health technical guidance requirements",
+      "E.B. Howard Consulting (September 2, 2025) - NIH AI grant policy analysis",
+      "NIH Office of Science Policy (February 28, 2025) - AI in biomedical research policies",
+      "Complizen.ai (October 17, 2025) - FDA AI medical device regulation 2025 guidance",
+      "Bipartisan Policy Center (November 10, 2025) - FDA oversight of health AI tools"
+    ],
+    "confidenceNotes": [
+      "Web search tool exhausted search quota after retrieving FDA, NIH, and policy documents. Most recent primary sources are from January-February 2026. No fresh April 23, 2026 breaking news items identified in available search results.",
+      "Items sourced from October 2025-February 2026 represent the most recent guidance finalized or announced; some may reference anticipated 2026 actions (e.g., FDA guidance finalization, TEMPO pilot). Recommend independent verification of current status on FDA.gov and NIH.gov.",
+      "Unable to retrieve fresh news on: NSF AI research funding announcements, academic peer institution AI strategy announcements, EU AI Act enforcement developments, major AI model releases, or clinical AI trial tool deployments from April 2026. Items deferred due to search quota limitation.",
+      "Items are not duplicative of the previously covered list provided (April 12-18, 2026), but represent contextualization and analysis of existing guidance frameworks rather than brand-new announcements. Real-time verification recommended for daily digest production."
+    ]
+  },
+  {
     "date": "2026-04-18",
     "domains": [
       {
