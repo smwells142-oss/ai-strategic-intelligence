@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-04-24",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NSF TechAccess: AI-Ready America Initiative Opens Round 1 Funding for State Coordination Hubs",
+            "source": "National Science Foundation",
+            "sourceUrl": "https://www.nsf.gov/focus-areas/ai",
+            "sourceDate": "March 25, 2026 (announced); April 27, 2026 (Round 1 deadline)",
+            "priority": "medium",
+            "summary": "NSF, in partnership with USDA NIFA, Department of Labor, and Small Business Administration, launched TechAccess: AI-Ready America to establish AI-ready Coordination Hubs in every U.S. state and territory. Up to $1 million annually per hub for 3 years with potential 4th-year extension. Round 1 applications due April 27, 2026.",
+            "whyItMatters": "UMN could lead or partner with a Minnesota AI-Ready Coordination Hub to coordinate regional workforce development, AI literacy, and ecosystem capacity building—aligning with CTSI's mission to translate research into practice across academic and community partners.",
+            "actionImplication": "If UMN CTSI is interested in coordinating Minnesota's AI readiness efforts, preliminary planning should begin immediately for the April 27 deadline. This could position UMN as a regional AI innovation hub."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "NSF and NVIDIA Announce $152M Open Multimodal AI Infrastructure (OMAI) for Scientific Research",
+            "source": "NSF / NVIDIA partnership announcement",
+            "sourceUrl": "https://grantedai.com/blog/nsf-nvidia-152-million-open-ai-science-infrastructure-2026",
+            "sourceDate": "March 2026",
+            "priority": "medium",
+            "summary": "NSF and NVIDIA jointly announced $152 million investment in OMAI—fully open AI models and infrastructure built specifically for scientific research. All components (weights, training data, code, documentation) are released for public use, modification, and reproduction. Initial releases expected in mid-to-late 2026.",
+            "whyItMatters": "Open, reproducible AI infrastructure directly supports CTSI's translational research mission by eliminating vendor lock-in and ensuring research continuity. This addresses structural vulnerabilities in workflows dependent on proprietary commercial models.",
+            "actionImplication": "CTSI research groups should begin planning workflows aligned with open, reproducible AI pipelines to position themselves to leverage OMAI infrastructure when released. Identify current dependencies on closed commercial AI systems that could be transitioned."
+          }
+        ]
+      },
+      {
+        "name": "Institutional Strategy",
+        "items": []
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": []
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": []
+      }
+    ],
+    "sourcesConsulted": [
+      "NIH Office of Science Policy (osp.od.nih.gov)",
+      "NSF Artificial Intelligence focus area (nsf.gov/focus-areas/ai)",
+      "NSF News and Announcements (March–April 2026)",
+      "Granted AI research funding tracker",
+      "University research administration sites (Boston University, University of North Carolina, University of Nebraska-Lincoln)",
+      "E.B. Howard Consulting and MeriTalk policy analysis"
+    ],
+    "confidenceNotes": [
+      "Search results predominantly returned information from March 2026 and early April 2026, with limited genuinely new developments from April 23–24. The NSF TechAccess and OMAI items are not in the 'recently covered' list but represent announcements made 3–4 weeks prior.",
+      "FDA policy items, institutional AI strategy moves by peer institutions, and clinical trial AI tool developments from the last 24–48 hours were not found in available search results. These may be reported through specialized medical device regulatory trackers, institutional press releases, or clinical research publications not captured by broad search queries.",
+      "To obtain a more complete digest for April 24, 2026, recommend supplementing with specialized sources: FDA CDRH/OHT guidance updates, AAMC institutional announcements, CTSA Hub network news, Nature Medicine/JAMA clinical AI publications, and university IRB/AI ethics governance announcements."
+    ]
+  },
+  {
     "date": "2026-04-23",
     "domains": [
       {
