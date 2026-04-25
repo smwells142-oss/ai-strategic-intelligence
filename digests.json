@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-04-25",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NIH Grants Policy Statement (March 2026) Codifies AI Restrictions and Research Security Mandates",
+            "source": "Northeastern University Research Enterprise Services",
+            "sourceUrl": "https://res.research.northeastern.edu/revised-nih-grants-policy-statement/",
+            "sourceDate": "March 2026 (reported ~1 month ago)",
+            "priority": "medium",
+            "summary": "<cite index=\"6-2\">The NIH's revised Grants Policy Statement (March 2026) is now in effect, replacing the April 2024 version with significant updates including new AI usage guidelines and PI application limits, elimination of foreign subawards, a new payment justification process under EO 1422, and research security mandates tied to the CHIPS and Science Act</cite>. <cite index=\"8-11,8-12\">A new simplified Data Management and Sharing Plan (DMSP) format is intended to reduce applicant burden and support more consistent compliance monitoring, with applicants required to use this new, shorter, standardized format beginning May 25, 2026</cite>.",
+            "whyItMatters": "CTSI and UMN researchers must immediately align grant submission practices with the March 2026 NIHGPS. The new DMSP standardized format (effective May 25, 2026) directly impacts translational research teams and IRB workflows. The formalized AI restrictions require institutional compliance infrastructure for grant certifications.",
+            "actionImplication": "CTSI should distribute the March 2026 NIHGPS summary to all grant-writing staff and PIs; conduct compliance training on the May 25 DMSP deadline; and establish internal review processes for AI usage declarations in proposals."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "FDA Finalizes Quality Management System Regulation (QMSR): Alignment with ISO 13485 Effective February 2, 2026",
+            "source": "FDA Draft Guidance on AI-Enabled Device Software Functions",
+            "sourceUrl": "https://www.fda.gov",
+            "sourceDate": "February 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"19-2,19-3,19-4\">FDA issued a final rule amending the device Quality System Regulation (QSR), 21 CFR Part 820, to align more closely with international consensus standards. This final rule took effect on February 2, 2026, and withdrew the majority of current requirements in Part 820, instead incorporating by reference the 2016 edition of ISO 13485 (Medical devices – Quality management systems – Requirements for regulatory purposes)</cite>.",
+            "whyItMatters": "CTSI-affiliated research teams developing or validating digital health tools, AI-enabled devices, or SaMD must conform to the updated quality management framework effective now. This harmonization with ISO 13485 affects IRB protocols, regulatory strategy for translational research outcomes, and compliance documentation for clinical trial devices.",
+            "actionImplication": "CTSI regulatory/compliance staff should review active translational research projects using medical devices or SaMD for QMSR alignment; update internal device development checklists to reference ISO 13485:2016 rather than legacy QSR requirements."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "NIH Office of Science Policy (osp.od.nih.gov/policies/artificial-intelligence/)",
+      "NIH Grants & Funding (grants.nih.gov)",
+      "FDA Medical Device/SaMD AI Pages (fda.gov)",
+      "FDA Media (fda.gov/media/)",
+      "Northeastern University Research Enterprise Services",
+      "Washington University Federal Agency Updates Digest",
+      "University of Utah Office of Sponsored Projects",
+      "STAT News, Bipartisan Policy Center, Hogan Lovells, IntuitionLabs, Complizen.ai"
+    ],
+    "confidenceNotes": [
+      "Search results returned primarily documentation of policies announced in July 2025 (NIH AI restrictions, PI limits), January 2026 (FDA guidance drafts, Commissioner Makary statements), and March 2026 (NIHGPS revision). No materially distinct new federal policy announcements, enforcement actions, or funding NOFOs dated April 25-26, 2026, were retrieved despite targeted searches across NIH, NSF, FDA, institutional strategy, EU AI Act, clinical trials, and emerging AI capability domains.",
+      "The March 2026 NIHGPS revision represents the most recent formal NIH policy consolidation but primarily codifies restrictions originally announced July 2025 (NOT-OD-25-132). The May 25, 2026, DMSP effective date is a new deadline but applies to guidance released earlier.",
+      "FDA's AI lifecycle management guidance remains in draft (January 2026) and on the FY2026 'B' list (published 'as resources permit'), consistent with April 23 reporting that finalization was deferred.",
+      "No fresh NSF, AAMC, peer CTSA hub strategy announcements, EU AI Act enforcement actions, or clinical research AI frameworks dated April 25, 2026, were identified in search results.",
+      "This digest reflects the constraint that items must come from actually retrieved sources. The brief period since April 23-24 comprehensive coverage and the depth of that coverage suggest limited new developments in this particular 24-48 hour window.",
+      "Link validation: 1 source URL(s) required correction (0 replaced via search, 1 fell back to homepage/kept as-is): \"FDA Finalizes Quality Management System Regulation (QMSR): Alignment w\" — original URL broken (HTTP 404), linked to source homepage"
+    ]
+  },
+  {
     "date": "2026-04-24",
     "domains": [
       {
