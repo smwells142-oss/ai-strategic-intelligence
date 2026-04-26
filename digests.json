@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-04-26",
+    "domains": [
+      {
+        "name": "Federal Policy Signals & Implementation",
+        "items": [
+          {
+            "headline": "NSF DMSP Tool Implementation Deadline: April 27, 2026",
+            "source": "Washington University Office of the Vice President for Research",
+            "sourceUrl": "https://research.washu.edu/announcements/federal-agency-updates-digest/",
+            "sourceDate": "March 17, 2026",
+            "priority": "medium",
+            "summary": "NSF is implementing a new Research.gov tool for creating Data Management and Sharing Plans (DMSPs), effective April 27, 2026. This replaces prior manual processes and applies to all financial assistance awarded on or after January 22, 2026. The new tool aims to streamline compliance and reduce administrative burden for research institutions.",
+            "whyItMatters": "CTSI and UMN researchers must prepare for transition to the new DMSP platform. This affects all NSF-funded projects at UMN and aligns with broader federal efforts to standardize data stewardship in AI-informed research. Early adoption guidance should be circulated to PIs.",
+            "actionImplication": "UMN Research Office should issue guidance on April 27 tool migration; consider holding training webinar for department administrators and grant coordinators."
+          },
+          {
+            "headline": "EU AI Act High-Risk Medical Device Compliance Obligations Timeline Clarified",
+            "source": "IntuitionLabs AI",
+            "sourceUrl": "https://intuitionlabs.ai/articles/fda-ai-medical-device-tracker",
+            "sourceDate": "March 12, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"16-4,16-5\">In the EU, the AI Act entered into force in August 2024 and classifies AI-enabled medical devices as \"high-risk\" under Article 6(1) and Annex I, demanding rigorous evidence and compliance. Most high-risk AI obligations take effect in August 2026, with full compliance for medical device AI required by August 2027.</cite>",
+            "whyItMatters": "UMN researchers and spin-outs developing AI-enabled medical devices for EU markets must prepare for August 2026 compliance obligations. This affects translational research timelines, clinical trial design, and device development roadmaps for projects targeting EU commercialization. CTSI should flag this for clinical innovation and commercialization teams.",
+            "actionImplication": "CTSI should brief translational research teams on EU AI Act obligations; incorporate into pre-commercialization checklists for AI-enabled medical device projects."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "NIH PRIMED-AI Funding Opportunity: $10.2M for AI-Clinical Imaging Integration (Application Due June 17, 2026)",
+            "source": "NIH Grants.gov",
+            "sourceUrl": "https://simpler.grants.gov/opportunity/360c4588-1512-4fa4-9b61-52a3f1d6c368",
+            "sourceDate": "April 17, 2026 (Forecasted posting)",
+            "priority": "high",
+            "summary": "<cite index=\"4-5,4-6\">The NIH Common Fund, with other NIH Institutes and Centers (ICs), intends to publish a Notice of Funding Opportunity (NOFO) to solicit applications for the Precision Medicine with Artificial Intelligence - Integrating Imaging with Multimodal Data (PRIMED-AI) program, which seeks to develop innovative, reliable, and cost-effective AI-based tools that integrate clinical imaging with other health data types to enhance personalized medicine for patients with chronic and other health conditions. The program's Translating Model to Clinic initiative will use a biphasic mechanism to initially focus on rigorous AI model building through the retrospective analysis and testing of large, interoperable multimodal datasets, laying a robust foundation for improved diagnostic accuracy, prognostic prediction, or therapeutic guidance where current methods fall short.</cite>",
+            "whyItMatters": "This is a flagship NIH initiative directly aligned with CTSI's mission in translational research and precision medicine. The focus on multimodal AI integration and the biphasic model-building approach (retrospective → prospective) offers significant opportunity for UMN clinical teams with large, well-curated datasets. CTSI should mobilize internal partnerships (Radiology, Cardiology, Oncology) to prepare competitive applications.",
+            "actionImplication": "CTSI should convene a rapid working group to identify 2–3 strong pilot datasets; schedule 1:1s with NIH program officer (Sahana N. Kukke) to discuss UMN strengths; begin concept development for June 17 deadline."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "NIH Grants.gov and NIH Common Fund (grants/funding opportunities)",
+      "FDA official guidance pages and device clearance database",
+      "NSF policy announcements and data management guidance",
+      "Washington University, Boston University, University of Utah, Lehigh University Research Administration offices (aggregated policy updates)",
+      "Bipartisan Policy Center analysis of FDA AI/ML regulation",
+      "STAT News digital health and AI coverage",
+      "Hogan Lovells FDA guidance agenda analysis",
+      "IntuitionLabs AI regulatory tracker and guidance analysis",
+      "Complizen AI medical device compliance resources"
+    ],
+    "confidenceNotes": [
+      "Search quota was exhausted after initial searches; unable to conduct targeted searches for institutional strategy moves, clinical AI tool releases, or capability announcements from the past 24–48 hours. Results primarily reflect guidance frameworks and policy timelines already captured in the 'recently covered' list.",
+      "PRIMED-AI opportunity is listed as 'Forecasted' for April 17, 2026 posting; actual NOFO publication status as of April 26, 2026 was not confirmed by final search results.",
+      "No genuinely new federal policy announcements, peer institution strategy pivots, or major AI tool releases from April 24–26, 2026 were identified in available search results. The digest reflects forward-looking implementation deadlines and clarifications of existing policies.",
+      "EU AI Act compliance timeline sourced from a March 12, 2026 analyst report; primary EU sources (European Commission, MDCG) were not directly consulted due to search limitations."
+    ]
+  },
+  {
     "date": "2026-04-25",
     "domains": [
       {
