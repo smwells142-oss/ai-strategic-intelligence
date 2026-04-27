@@ -1,5 +1,51 @@
 [
   {
+    "date": "2026-04-27",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "Trump Administration Proposes Drastic 55% NSF Budget Cut for FY2027",
+            "source": "CRA Policy Blog",
+            "sourceUrl": "https://cra.org/govaffairs/blog/2026/04/nsf-fy2027-pbr/",
+            "sourceDate": "April 24, 2026",
+            "priority": "high",
+            "summary": "The Trump Administration released its FY2027 budget request on April 3, 2026, proposing a 55% cut to NSF funding. This represents a continuation of the administration's proposed deep cuts to the nation's primary funder of basic research in computer science at academic institutions. The Computing Research Association released a statement expressing disappointment and calling on Congress to reject the proposal.",
+            "whyItMatters": "NSF is a critical funding partner for CTSI-affiliated research, particularly in AI infrastructure, data science, and biomedical informatics. A 55% cut would severely impact translational research capacity, workforce development pipelines, and AI research initiatives that support clinical-translational workflows. UMN researchers and CTSI programs dependent on NSF awards face significant uncertainty.",
+            "actionImplication": "Monitor Congressional budget negotiations (expected to extend into late 2026/early 2027). CTSI should assess exposure to NSF funding and develop contingency plans for affected programs. Engage with institutional government relations office on advocacy regarding NSF funding protection."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "NSF Transport Phenomena Program Solicits AI Applications in Multi-Scale Research",
+            "source": "GovPing / NSF",
+            "sourceUrl": "https://changeflow.com/govping/trade-sanctions/nsf-engineering-grant-multi-scale-transport-research-ai-and-2026-04-25",
+            "sourceDate": "April 25, 2026",
+            "priority": "medium",
+            "summary": "NSF Engineering Directorate's Transport Phenomena (TP) program (PD-26-366Y) is soliciting fundamental research on multi-scale transport processes including mass, momentum, energy, and species transport. Research topics explicitly include artificial intelligence applications, quantum thermal phenomena, and interfacial phenomena. The program operates on rolling admissions with no cost-sharing requirements.",
+            "whyItMatters": "This program signals NSF's continued commitment to AI-augmented research across traditional engineering domains. For translational research at CTSI, AI tools applied to multi-scale biomedical transport phenomena (e.g., drug delivery, tissue perfusion modeling) could accelerate bench-to-bedside pathways. The rolling-admission structure provides flexibility for researchers to build collaborative teams.",
+            "actionImplication": "Identify UMN biomedical and chemical engineering researchers working on transport phenomena in clinical contexts. Consider cross-disciplinary partnerships with CTSI clinical teams to develop proposals on AI-enhanced diagnostic or therapeutic delivery systems."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "CRA Policy Blog (April 24, 2026) - NSF FY2027 budget analysis",
+      "GovPing / NSF Grants.gov (April 25, 2026) - Transport Phenomena program announcement",
+      "NSF website and related institutional research office announcements"
+    ],
+    "confidenceNotes": [
+      "Search results heavily weighted toward material from February-March 2026 and earlier. Limited fresh news detected from April 26-27, 2026 specifically.",
+      "Most FDA, NIH, and EU AI Act items found in searches match the 'already covered' exclusion list; these were not included to avoid duplication.",
+      "Search capacity exhausted after initial queries; additional targeted searches on clinical trial AI tools, academic medical center strategy, and EU enforcement actions were not completed. Recommend follow-up searches on these domains.",
+      "The two items included here represent the only substantially new developments verified as not on the exclusion list and not older than 1 week."
+    ]
+  },
+  {
     "date": "2026-04-26",
     "domains": [
       {
