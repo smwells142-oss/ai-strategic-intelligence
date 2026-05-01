@@ -1,5 +1,72 @@
 [
   {
+    "date": "2026-05-01",
+    "note": "REDUCED COVERAGE - Limited by search tool call limits. Only 2 searches executed before quota exhaustion. Results returned primarily historical/policy reference materials rather than fresh 24-48 hour developments. Recommend manual review of NIH.gov, FDA.gov, NSF.gov, and peer CTSA hub announcements for current May 1, 2026 items not captured.",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NIH Data Management & Sharing Plan Simplified Format Mandatory Starting May 25, 2026",
+            "source": "WashU Research News / Federal Agency Updates Digest",
+            "sourceUrl": "https://research.washu.edu/announcements/federal-agency-updates-digest/",
+            "sourceDate": "March 17, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"7-17,7-18\">NIH announced a new simplified and streamlined Data Management and Sharing Plan (DMSP) format intended to reduce applicant burden and support more consistent compliance monitoring. Beginning May 25, 2026, applicants will be required to use this new, shorter, standardized format.</cite>",
+            "whyItMatters": "CTSI research administrators and grant writers must implement the new DMSP template for all NIH submissions after May 25. This represents a concrete compliance deadline in the next 3 weeks affecting all UMN NIH-funded research across translational and clinical domains.",
+            "actionImplication": "CTSI should circulate the new DMSP template to all research support staff and PIs immediately and conduct internal training on required format changes before the May 25 deadline."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "EU AI Act Medical Device High-Risk Obligations Timeline: August 2026–2027 Compliance Phases",
+            "source": "IntuitionLabs AI Compliance Guide",
+            "sourceUrl": "https://intuitionlabs.ai/articles/fda-ai-ml-samd-guidance-compliance",
+            "sourceDate": "4 days ago (Late April 2026)",
+            "priority": "high",
+            "summary": "<cite index=\"19-4,19-5\">The EU AI Act entered into force in August 2024 and classifies AI-enabled medical devices as \"high-risk\" under Article 6(1) and Annex I, demanding rigorous evidence and compliance. Most high-risk AI obligations take effect in August 2026, with full compliance for medical device AI required by August 2027.</cite>",
+            "whyItMatters": "If CTSI or UMN intends to deploy or commercialize AI-enabled clinical tools or medical devices with EU market access, August 2026 marks a critical compliance threshold. Non-compliance risks regulatory rejection, product seizure, and reputational harm across European health systems partnered with UMN.",
+            "actionImplication": "CTSI should audit any AI-enabled clinical or translational research projects with EU deployment intent and engage regulatory/compliance leadership to map alignment with MDCG 2025-6 guidance (EU Medical Device Coordination Group clarification issued June 2025)."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "FDA Confirms 1,451+ AI-Enabled Devices Authorized Through End-2025; Radiology Dominates (76%)",
+            "source": "IntuitionLabs FDA AI Medical Device Tracker",
+            "sourceUrl": "https://intuitionlabs.ai/articles/fda-ai-medical-device-tracker",
+            "sourceDate": "March 12, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"19-8\">With 1,451 cumulative authorized devices through end-2025, radiology imaging remains the dominant field (76% of all devices), but cardiovascular and neurology applications are growing steadily.</cite> This represents rapid expansion in FDA-cleared AI medical devices and signals where regulatory scrutiny and clinical validation focus is concentrated.",
+            "whyItMatters": "CTSI clinical research programs should recognize that radiology AI is heavily saturated in the regulatory space, suggesting less first-mover advantage but also mature guidance pathways. Growth in cardio/neurology AI signals emerging clinical validation opportunities where CTSI could differentiate translational research.",
+            "actionImplication": "Cardiology and neurology teams should review existing FDA guidance for AI cardiovascular and neurological devices and consider aligning CTSI translational projects to fill evidence gaps in these emerging categories."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "NIH Office of Science Policy (osp.od.nih.gov)",
+      "FDA Center for Device and Radiological Health (CDRH) guidance documents",
+      "WashU Research News Federal Agency Updates Digest",
+      "IntuitionLabs AI Compliance and Regulatory Analysis (independent research/industry consulting)",
+      "FDA Digital Health resources and guidance tracker"
+    ],
+    "confidenceNotes": [
+      "CRITICAL LIMITATION: Web search quota exhausted after 2 successful calls. Unable to complete systematic coverage of all 5 planned domains (Federal Policy Signals, Institutional Strategy, Responsible AI & Ethics, AI in Clinical & Translational Research, AI Tool & Capability Developments).",
+      "Results returned primarily policy reference and historical material (mostly published in Feb–March 2026) rather than genuine May 1, 2026 breaking news or announcements.",
+      "BESH clinical trial reclassification (effective May 25, 2026) identified as administrative implementation of policy previously announced; not a new May 1 announcement.",
+      "Institutional Strategy domain (peer institution AI adoption, workforce moves) not addressed due to search quota exhaustion.",
+      "AI Tool & Capability Developments domain (model releases, infrastructure, MCP/agents) not systematically searched.",
+      "No NSF funding announcements beyond previously covered April 2026 items retrieved.",
+      "Recommend manual verification of NIH.gov, FDA.gov, NSF.gov, and direct CTSA hub communications for genuine May 1, 2026 developments not captured in this reduced-scope digest."
+    ]
+  },
+  {
     "date": "2026-04-27",
     "domains": [
       {
