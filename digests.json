@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-05-02",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "FDA Expands Hands-Off Approach to AI Clinical Decision Support Software and Wearables",
+            "source": "FDA Guidance (Jan 6, 2026); Multiple regulatory analysis sources",
+            "sourceUrl": "https://www.arnoldporter.com/en/perspectives/advisories/2026/01/fda-cuts-red-tape-on-clinical-decision-support-software",
+            "sourceDate": "January 6, 2026",
+            "priority": "high",
+            "summary": "<cite index=\"17-1\">The FDA published guidance on Jan. 6, 2026, that reduces oversight of certain digital health products, including AI-enabled software and wearable devices.</cite> <cite index=\"17-3,17-4\">The guidance clarifies that software providing recommendations which the clinician can independently review and understand falls outside FDA medical device oversight, meaning recommendations or other information from such tools that are not the sole or primary basis for clinical action would fall outside FDA oversight.</cite> <cite index=\"20-6\">FDA Commissioner Makary described the updated guidances as efforts to \"cut unnecessary regulation\" and \"promote innovation.\"</cite>",
+            "whyItMatters": "This guidance directly impacts CTSI's clinical translational research by clarifying regulatory pathways for AI-enabled decision support tools that could accelerate clinical workflow integration. Academic medical centers can now more confidently deploy certain AI tools without premarket FDA clearance, provided they function as clinical support (not autonomous decision-making). This also reduces uncertainty around IRB submissions for studies using such tools.",
+            "actionImplication": "CTSI should incorporate these FDA clarifications into internal AI governance frameworks and IRB guidance; review existing and planned clinical AI implementations against the new CDS exemption criteria to assess regulatory status."
+          },
+          {
+            "headline": "FDA FY2026 Guidance Agenda Prioritizes AI-Enabled Device Lifecycle and Real-World Evidence Documents",
+            "source": "Hogan Lovells (FDA CDRH Guidance Agenda Analysis)",
+            "sourceUrl": "https://www.hoganlovells.com/en/publications/fda-device-guidance-agenda-what-to-watch-in-2026",
+            "sourceDate": "October 15, 2025",
+            "priority": "medium",
+            "summary": "<cite index=\"13-1,13-2,13-3\">The FDA published its FY2026 guidance agenda, announcing plans for eight guidance documents including topics on artificial intelligence, real-world evidence, 510(k) submissions, patient preference information, and quality management systems. CDRH's \"A\" list prioritizes the release of four final and four draft guidance documents this upcoming year.</cite> <cite index=\"13-17,13-18\">On the \"B\" list is \"Artificial Intelligence-Enabled Device Software Functions: Lifecycle Management Considerations and Marketing Submission Recommendations,\" which consolidates FDA recommendations on content needed in a marketing application for devices with AI-enabled software functions.</cite>",
+            "whyItMatters": "CTSI investigators developing or validating AI-enabled clinical tools should monitor these finalized guidances, particularly the AI lifecycle management document, to understand emerging FDA expectations around training data documentation, model drift monitoring, and postmarket surveillance—critical for regulatory-compliant clinical validation.",
+            "actionImplication": "CTSI should subscribe to FDA guidance release notifications and brief research teams on final AI lifecycle guidance once published; consider incorporating FDA expectations into pre-IND and pre-marketing authorization planning for AI-based medical devices."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "FDA Launches TEMPO Pilot with CMS for Accelerated Digital Health Technology Access in Medicare/Medicaid",
+            "source": "IntuitionLabs (FDA Digital Health Guidance Reference)",
+            "sourceUrl": "https://intuitionlabs.ai/articles/fda-digital-health-technology-guidance-requirements",
+            "sourceDate": "Early 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"16-5\">As of early 2026, FDA launched the TEMPO pilot in cooperation with CMS to help bring certain digital health devices to market for Medicare/Medicaid patients while protecting safety.</cite> The pilot represents a voluntary program designed to expand access to specific digital health technologies for chronic disease care while collecting real-world data on performance and safety.",
+            "whyItMatters": "CTSI-affiliated clinical teams working on digital health innovations or real-world evidence studies could potentially leverage TEMPO as a pathway to validate AI-enabled or digital therapeutics in Medicare/Medicaid populations—particularly valuable for translational research focused on health equity and pragmatic implementation science.",
+            "actionImplication": "CTSI should identify eligible chronic disease management AI/digital tools in its portfolio and explore TEMPO enrollment; coordinate with Medicare/Medicaid-affiliated UMN health systems (e.g., M Health Fairview) on pilot participation and real-world data collection protocols."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "FDA Office of Science Policy (osp.od.nih.gov) — NIH AI policy framework and peer review guidance",
+      "FDA Official Guidance Documents and CDRH Guidance Agenda (2026)",
+      "Hogan Lovells Legal Analysis — FDA Device Guidance Agenda (October 2025)",
+      "IntuitionLabs — FDA Digital Health & AI Medical Device Compliance Guides (2026 updates)",
+      "Arnold & Porter Advisories — FDA 2026 CDS and General Wellness Final Guidance Analysis (January 2026)",
+      "Telehealth.org — FDA Digital Health Policy Announcements (January 2026)",
+      "Multiple university research administration offices (UNL, Ohio State, Utah) — Policy implementation guidance"
+    ],
+    "confidenceNotes": [
+      "SEARCH BUDGET LIMITATION: Only two of six planned targeted searches executed successfully (NIH and FDA queries). NSF, academic medical center strategy, clinical trial AI, and EU AI Act enforcement searches did not return results, constraining digest breadth to 3 items across 2 domains instead of the target 4–5 domains with 2–4 items each.",
+      "AGE OF SOURCES: Most primary FDA sources date to January–February 2026 or earlier. No fresh May 2-3 2026 announcements were retrieved. The digest reflects the most recent available federal guidance but may not capture breaking news from the last 48 hours.",
+      "ALREADY-COVERED FILTER: NIH AI policy (NOT-OD-25-132 and grant application restrictions) is now months old (effective Sept 25, 2025) and was correctly filtered out as previously covered. FDA QMSR (Feb 2, 2026 effective date) and 1,451 device count were also excluded per already-covered list.",
+      "POTENTIAL GAPS: No NSF announcements, peer institution AI strategy news, EU AI Act enforcement updates, or novel AI tool capability releases found. These gaps likely reflect genuine lack of May 2-3 2026 announcements but could also reflect search term limitations or publication lag in indexed sources."
+    ]
+  },
+  {
     "date": "2026-05-01",
     "note": "REDUCED COVERAGE - Limited by search tool call limits. Only 2 searches executed before quota exhaustion. Results returned primarily historical/policy reference materials rather than fresh 24-48 hour developments. Recommend manual review of NIH.gov, FDA.gov, NSF.gov, and peer CTSA hub announcements for current May 1, 2026 items not captured.",
     "domains": [
