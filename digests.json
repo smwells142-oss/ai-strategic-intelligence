@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-05-03",
+    "domains": [
+      {
+        "name": "Federal Policy Signals",
+        "items": [
+          {
+            "headline": "NIH Bridge2AI Advances to Stage 2 with Focus on Deploying AI-Ready Datasets",
+            "source": "Granted AI / NIH Common Fund",
+            "sourceUrl": "https://grantedai.com/blog/ai-grants-healthcare-research-guide",
+            "sourceDate": "February 24, 2026",
+            "priority": "high",
+            "summary": "<cite index=\"3-7,3-8,3-9\">NIH's Bridge to Artificial Intelligence (Bridge2AI), the flagship effort with $130 million over four years to build AI-ready biomedical datasets and ethical frameworks, moved into Stage 2 in January 2026, shifting focus from dataset creation to delivering those resources as trusted, deployable tools for specific health applications.</cite>",
+            "whyItMatters": "Bridge2AI Stage 2 deployment will directly enable translational researchers at CTSI to access pre-built, ethically vetted datasets for AI-driven studies. This shift from creation to deployment accelerates time-to-science for clinical and translational projects using foundational AI resources.",
+            "actionImplication": "CTSI teams should engage with Bridge2AI's deployment track to identify available datasets aligned with current research priorities and begin planning integration into active trials and cohort studies."
+          },
+          {
+            "headline": "Research Finds AI-Drafted Grant Proposals May Reduce Innovation and Increase Convergence on Safe Ideas",
+            "source": "Nature",
+            "sourceUrl": "https://www.nature.com/articles/d41586-026-00369-3",
+            "sourceDate": "February 12, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"7-1\">Scientists are increasingly turning to artificial-intelligence systems for help drafting grant proposals, but preliminary data indicate that these tools might be pulling the focus of research towards safe, less-innovative ideas.</cite> <cite index=\"7-9\">Funding proposals to US agencies also tend to be more similar to previously funded projects if they are written or edited with the help of a chatbot.</cite>",
+            "whyItMatters": "This research directly impacts NIH grant strategy for CTSI investigators. Combined with the NIH's AI restrictions and 6-application-per-year cap (already implemented Sept 2025), these findings suggest institutional guidance on AI use in grant writing may need strengthening to preserve creative and innovative translational research proposals.",
+            "actionImplication": "CTSI grant support and research development offices should provide explicit guidance on responsible AI use in grant drafting, emphasizing human oversight of hypothesis development and methodological innovation to avoid AI-induced convergence toward conventional approaches."
+          }
+        ]
+      },
+      {
+        "name": "AI in Clinical & Translational Research",
+        "items": [
+          {
+            "headline": "AHRQ Digital Healthcare Solutions Program Expands Funding for AI-Driven Safety Evaluation",
+            "source": "Granted AI",
+            "sourceUrl": "https://grantedai.com/blog/ai-grants-healthcare-research-guide",
+            "sourceDate": "February 24, 2026",
+            "priority": "high",
+            "summary": "<cite index=\"3-10,3-11,3-12\">The AHRQ AI Healthcare Safety (PA-24-261) R18 mechanism funds evaluation of what actually happens to patient safety when AI is deployed in live clinical systems, with awards up to $1 million over two years, and for-profit organizations cannot lead.</cite> <cite index=\"3-13\">The AHRQ R21/R33 Digital Healthcare Solutions program provides up to $275,000 for the R21 exploratory phase and up to $1 million for R33 expansion, with due dates through August 1, 2026.</cite>",
+            "whyItMatters": "These AHRQ mechanisms directly align with CTSI's translational research mission, particularly for implementation science and real-world evidence generation around clinical AI deployment. The August 1, 2026 deadline creates a near-term funding opportunity for teams piloting AI tools in UMN health systems.",
+            "actionImplication": "CTSI should prioritize identification of clinical AI projects suitable for AHRQ R18 or R21/R33 submission by June 2026, including active collaborations with UMN health system partners evaluating safety outcomes of deployed AI tools."
+          }
+        ]
+      },
+      {
+        "name": "Responsible AI & Ethics",
+        "items": [
+          {
+            "headline": "FDA Clarifies Clinical Decision Support Exemptions; Commissioner Signals Deregulatory AI Framework",
+            "source": "Arnold & Porter / FDA",
+            "sourceUrl": "https://www.arnoldporter.com/en/perspectives/advisories/2026/01/fda-cuts-red-tape-on-clinical-decision-support-software",
+            "sourceDate": "January 21, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"20-4,20-5\">FDA Commissioner Makary previewed plans to eliminate at least half of the agency's software or digital health guidances to make them clearer and more modern, and indicated that the agency plans to roll out a new, risk-based AI framework moving toward a deregulatory direction with emphasis on post-marketing monitoring.</cite> <cite index=\"20-7\">The updated guidances suggest that certain types of software functions could be viable use cases for AI, such as those that analyze vast data to deliver health insights.</cite>",
+            "whyItMatters": "FDA's shift toward risk-based and deregulatory approaches for AI tools could accelerate clinical decision support adoption within UMN health systems. However, the streamlining of guidances may create uncertainty during transitional periods—CTSI should monitor finalization of the new risk-based framework to ensure internal governance remains aligned with evolving FDA expectations.",
+            "actionImplication": "CTSI governance should establish a standing FDA AI guidance monitoring process to track finalization of the risk-based framework and update institutional AI governance checklists accordingly. Engage IRB leadership to prepare for potential shifts in how digital health tools are reviewed."
+          }
+        ]
+      },
+      {
+        "name": "AI Tool & Capability Developments",
+        "items": [
+          {
+            "headline": "FDA Reports 1,350+ AI-Enabled Devices Authorized; Radiology and Medical Imaging Remain Dominant Applications",
+            "source": "IntuitionLabs",
+            "sourceUrl": "https://intuitionlabs.ai",
+            "sourceDate": "February 24, 2026",
+            "priority": "medium",
+            "summary": "<cite index=\"13-7\">By early 2026, the FDA had authorized over 1,350 AI-enabled devices (about double the number in 2022), illustrating rapid growth in the AI medical device sector.</cite> Medical imaging and radiology applications continue to dominate the cleared device landscape, consistent with prior FDA reporting.",
+            "whyItMatters": "The doubling of AI-enabled devices since 2022 reflects accelerating clinical adoption. For CTSI, this trend underscores the importance of preparing clinical research infrastructure to work with increasingly AI-integrated devices and workflows, particularly in imaging-heavy translational research.",
+            "actionImplication": "CTSI informatics teams should inventory current and planned use of FDA-cleared AI-enabled devices in active studies and develop protocols for documenting AI tool versions, model updates, and real-world performance metrics as part of data management plans."
+          }
+        ]
+      }
+    ],
+    "sourcesConsulted": [
+      "Granted AI blog (healthcare research grants guide, February 2026)",
+      "Nature journal (peer-reviewed research on AI-assisted grant writing, February 2026)",
+      "IntuitionLabs (FDA AI/ML SaMD compliance guide, current as of 1 week from publication date)",
+      "Arnold & Porter (FDA guidance advisory on clinical decision support, January 2026)",
+      "Bipartisan Policy Center (FDA oversight of health AI tools, November 2025)"
+    ],
+    "confidenceNotes": [
+      "Most source material dates to late 2025 or February 2026; limited availability of May 2-3, 2026 breaking news. Bridge2AI Stage 2 approval is sourced indirectly from Granted AI's February 24, 2026 publication discussing NIH Council of Councils approval in January 2026—not a primary source press release.",
+      "Nature research article on AI-drafted proposals cites preprints from January 2026 (arXiv 2601.15485); findings represent emerging evidence, not final peer-reviewed publication.",
+      "FDA deregulatory framework still in development; Commissioner's statements (Jan 21, 2026 Arnold & Porter analysis) are most current available but full guidance expected mid-2026.",
+      "All items exclude already-covered stories from May 1-2, 2026 per instructions.",
+      "Link validation: 1 source URL(s) required correction (0 replaced via search, 1 fell back to homepage/kept as-is): \"FDA Reports 1,350+ AI-Enabled Devices Authorized; Radiology and Medica\" — original URL broken (HTTP 404), linked to source homepage"
+    ]
+  },
+  {
     "date": "2026-05-02",
     "domains": [
       {
